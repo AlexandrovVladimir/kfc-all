@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Турбо ФМ</title>
+
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+  <meta property="og:image" content="img/favicon/image.jpg">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+  <!-- Chrome, Firefox OS and Opera -->
+  <meta name="theme-color" content="#000">
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#000">
+  <!-- iOS Safari -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+    <a href="#" class="header-logo">
+      <img src="img/logo.svg" alt="logo">
+    </a>
+    <div class="header-center">
+      <div class="header-live">
+        <span class="header-live__text">Прямой эфир</span>
+        <a href="tel: 8(800)3505203" class="header-live__tel">8 (800) 350 52 03</a>
+      </div>
+      <div class="header-whatsapp">
+        <span class="header-whatsapp__text">Пиши нам в WhatsApp</span>
+        <a href="https://api.whatsapp.com/send?phone=79251812004" target="_blank" class="header-whatsapp__icon">
+          <img src="img/whatsapp.png" alt="whatsapp">
+        </a>
+      </div>
+    </div>
+    <div class="header-player">
+      <div class='player'>
+        <div class="player__eq">
+          <img src="img/ekv.png" alt="music">
+        </div>
+        <div class='player__btns'>
+          <div class="icon-default icon-play">
+          </div>
+          <audio class="header-audio" controls>
+            <source src="https://m2m128.hostingradio.ru:8074/m2m128.mp3"/>
+          </audio>
+        </div>
+        <div class="player__volume">
+          <img src="img/volume-up-interface-symbol.svg" alt="volume-stop" class="volume-stop">
+          <div class="volumeslider"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </header>
+  <section class="translation">
+    <div class="translation__container">
+      <div class="translation-wrapper translation-first">
+        <div class="translation__description">
+          <div class="translation__text">Смотри прямую трансляцию</div>
+          <div class="translation__text">Финала из Сочи</div>
+          <div class="translation__text-mini">
+            Поддержи любимую команду в инстаграмм с хештегом
+            <a href="#" class="hashtag">#ТУРБОФМ</a>и выиграй ТУРБО призы!
+          </div>
+        </div>
+        <div class="translation__countdown countdown">
+          <div class="countdown__text">до начала осталось:</div>
+          <div class="main-timer">
+            <div class="main-timer-cont">
+              <div class="main-timer-center">
+                <ul class="justify-block" data-date="2018/11/02" data-hours="10" data-minuts="00" data-seconds="00">
+                </ul>
+              </div>
+              <!--<div class="main-timer-bottom justify-block"><span>дней</span><span>часов</span><span>минут</span></div>-->
+            </div>
+            <div class="main-timer-substrate"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="translation-wrapper translation-second" style="display: none;">
+        <iframe src="https://player.radio-box.org/v/megapolis/" frameborder="0">iframe для Вовчика</iframe>
+      </div>
+      <div class="translation-wrapper translation-third" style="display: none;">
+        <div class="item">
+          <img src="img/slider1.jpg" alt="slider1">
+        </div>
+        <div class="item">
+          <img src="img/slider2.jpg" alt="slider2">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="instagram" style="display: none;">
+    <div class="instagram__container">
+      <div class="instagram-slider">
+        <div class="item">
+          <div class="instagram-slider-wrapper">
+            <div class="instagram-slider__image">
+              <div class="instagram-slider__image_top">
+                <i class="fab fa-instagram"></i>
+                <a href="#" class="instagram-slider__image_top_hashtag">#турбофм</a>
+              </div>
+              <div class="instagram-slider__image_pic">
+                <img src="img/inst.jpg" alt="image">
+              </div>
+            </div>
+            <div class="instagram-slider__description instagram-description">
+              <div class="instagram-description__row">
+                <div class="instagram-description__avatar">
+                  <img src="" alt="avatar">
+                </div>
+                <a href="#" class="instagram-description__login">pyaterochka_turbo</a>
+              </div>
+              <div class="instagram-description__quotes">
+                <a href="#" class="instagram-description__login">pyaterochka_turbo</a>
+                <span class="instagram-description__quotes_text">
+                  День торговли в «Пятёрочке» прошел с размахом и со слезами умиления на глазах! Сотрудников Приволжского дивизиона с большимопытом работы в «Пятёрочке» лично поздравили руководители
+                </span>
+                <a href="" class="instagram-description__hashtag">#турбофм</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="instagram-slider__image">
+            <div class="instagram-slider__image_top">2</div>
+            <div class="instagram-slider__image_pic"></div>
+          </div>
+          <div class="instagram-slider__description"></div>
+        </div>
+        <div class="item">
+          <div class="instagram-slider__image">
+            <div class="instagram-slider__image_top">3</div>
+            <div class="instagram-slider__image_pic"></div>
+          </div>
+          <div class="instagram-slider__description"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cackle">
+    <div class="cackle__container">
+      <div id="mc-container"></div>
+      <script type="text/javascript">
+        cackle_widget = window.cackle_widget || [];
+        cackle_widget.push({widget: 'Comment', id: 62722});
+        (function() {
+          var mc = document.createElement('script');
+          mc.type = 'text/javascript';
+          mc.async = true;
+          mc.src = ('https:' === document.location.protocol ? 'https' : 'http') + '://cackle.me/widget.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+        })();
+      </script>
+      <a id="mc-link" href="http://cackle.me">Комментарии для сайта <b style="color:#4FA3DA">Cackl</b><b style="color:#F65077">e</b></a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer_top">
+      <div class="footer__container">
+        <div class="footer-logo">
+          <a href="" class="footer-logo__link">
+            <img src="img/logo.svg" alt="logo">
+          </a>
+          <span class="footer-logo__text">Корпоративное радио Пятерочки</span>
+        </div>
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <span class="footer-list__item_title">Эфир Турбо FM</span>
+          </li>
+          <li class="footer-list__item">
+            <a href="tel: 8(800)3505203" class="footer-list__link footer-list__link_number">8 (800) 350 52 03</a>
+          </li>
+          <li class="footer-list__item">
+            <a href="mailto: radio@turbofm.ru" class="footer-list__link">radio@turbofm.ru</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <span class="footer-list__item_title">Турбо FM в соц. сетях</span>
+          </li>
+          <li class="footer-list__item footer-list__item_social">
+            <a href="https://vk.com/turbofive" target="_blank" class="footer-list__link"><i class="fab fa-vk"></i></a>
+            <a href="https://www.facebook.com/turbocareer" target="_blank" class="footer-list__link "><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/pyaterochka_turbo/" target="_blank" class="footer-list__link"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me/turbofootball" target="_blank" class="footer-list__link"><i class="fab fa-telegram-plane"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=79251812004" target="_blank" class="footer-list__link"><i class="fab fa-viber"></i></a>
+          </li>
+          <li class="footer-list__item"></li>
+        </ul>
+        <ul class="footer-list">
+          <li class="footer-list__item">
+            <span class="footer-list__item_title">Техническая поддержка вещания</span>
+          </li>
+          <li class="footer-list__item">
+            <a href="mailto: tech@megapolismedia.ru" class="footer-list__link">tech@megapolismedia.ru</a>
+          </li>
+          <li class="footer-list__item"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="footer__container">
+        <span>© 2018. TURBOFM. Все права защищены</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/timer.js"></script>
+  <script src="js/player.js"></script>
+  <!--<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+  <script src="js/jquery-ui.js"></script>
+</body>
+</html>

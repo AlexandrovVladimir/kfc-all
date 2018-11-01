@@ -1,0 +1,78 @@
+@import 'vars'
+
+.translation
+	&__container
+		max-width: $container-lg
+		margin: auto
+		padding: 0 1rem
+	.translation-wrapper
+		background: url('../img/bg.png') no-repeat center / cover
+		border-radius: 6px
+		height: 650px
+		max-width: 100%
+		flex: 0 0 100%
+		margin-top: 1rem
+		padding: 1rem
+		position: relative
+		&.translation-second
+			background: none
+			height: auto
+			padding: 0
+			//iframe
+			//	height: 100%
+			//	width: 100%
+		&.translation-third
+			background: none
+			padding: 0
+			@media screen and (max-width: 767px)
+				height: 320px
+			.item
+				img
+					width: 100%
+					height: 650px
+					@media screen and (max-width: 767px)
+						height: 320px
+	&__description
+		position: absolute
+		top: 40%
+		left: 50%
+		transform: translate(-50%, -40%)
+		@media screen and (max-width: 767px)
+			width: 100%
+			padding: 0 1rem
+	&__text
+		color: #fff
+		font-size: 70px
+		font-family: 'bebas_neuebold', sans-serif
+		line-height: 1
+		text-transform: uppercase
+		text-align: center
+		@media screen and (max-width: 991px)
+			font-size: 60px
+		@media screen and (max-width: 580px)
+			font-size: 45px
+		&-mini
+			font-size: 20px
+			font-family: $default-font
+			color: rgb(255, 255, 255)
+			margin-top: 50px
+			text-align: center
+			@media screen and (max-width: 580px)
+				font-size: 16px
+				margin-top: 25px
+			.hashtag
+				background: url('../img/box.png') no-repeat
+				color: #fff
+				display: inline-block
+				padding: 5px 15px
+				text-decoration: none
+		&:nth-child(2)
+			color: #17a540
+	&__countdown
+		color: #fff
+		font-family: $default-font
+		font-size: 30px
+		position: absolute
+		bottom: 1rem
+		left: 50%
+		transform: translateX(-50%)
