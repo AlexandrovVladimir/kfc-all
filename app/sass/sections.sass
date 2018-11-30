@@ -1,0 +1,152 @@
+@import vars
+@import mixins
+
+.header
+	.header-container
+		max-width: $container-xl
+		margin: auto
+		padding: 0 1rem
+		display: flex
+		align-items: center
+		justify-content: flex-end
+	.header-helper
+		flex-basis: 165px
+		max-width: 165px
+	.header-logo
+		padding: 3rem 0
+	.header-lines
+		img
+			transform: translateY(-50%)
+.lines
+	flex-grow: 1
+	text-align: center
+
+.top
+	.top-container
+		max-width: $container-xl
+		margin: auto
+		padding: 0 1rem
+		display: flex
+		align-items: center
+	.top-description
+		flex: 0 0 100%
+		max-width: 100%
+		text-align: center
+		span
+			display: block
+		&__image
+			margin: 102px 0 80px
+		.lines
+			margin: 83px 0 62px
+	&__text
+		font-size: 32px
+		font-family: $font-regular
+		letter-spacing: 2.5px
+		//font-family: 'PFDinText-Medium', sans-serif
+		color: #010101
+		line-height: 0.811
+		&_bold_red
+			color: $default-red
+			font-family: 'PFDinText-Medium', sans-serif
+			font-size: 120px
+			font-weight: bold
+			line-height: 1
+			letter-spacing: 4.7px
+			text-transform: uppercase
+		&_date
+			font-size: 43px
+			font-family: $font-regular
+			letter-spacing: 3px
+			line-height: 0.811
+			text-transform: uppercase
+			
+.dance
+	background-color: $default-red
+	.dance-container
+		max-width: $container-xl
+		margin: auto
+		padding: 0 1rem
+		display: flex
+		align-items: center
+		justify-content: center
+		min-height: 757px
+	&__left
+		flex: 0 0 50%
+		max-width: 50%
+		position: relative
+		min-height: 757px
+		.dance-image
+			position: absolute
+			bottom: 0
+			left: -37px
+	&__right
+		flex: 0 0 50%
+		max-width: 50%
+		min-height: 757px
+		padding: 1rem
+		display: flex
+		flex-direction: column
+		justify-content: space-between
+	&__attention
+		font-size: 34px
+		font-family: $font-regular
+		color: #fff
+		line-height: 1
+		letter-spacing: 2.5px
+		margin-top: 52.5px
+		text-transform: uppercase
+	&__title
+		&_big
+			color: #fff
+			display: block
+			font-family: $font-medium
+			line-height: 0.85
+			font-size: 175.17px
+			text-transform: uppercase
+		&_normal
+			color: #fff
+			display: block
+			font-family: $font-regular
+			font-size: 54px
+			letter-spacing: 2.4px
+			text-transform: uppercase
+	&__text
+		&_mini
+			color: #fff
+			display: block
+			font-family: $font-regular
+			font-size: 24px
+			line-height: 1
+			
+.video
+	padding: 67.5px 1rem 36px
+	.video-container
+		max-width: $container-xl
+		margin: auto
+		padding: 0 1rem
+		display: flex
+		flex-direction: column
+	.video-lines
+		height: 144px
+		overflow: hidden
+	.video-item
+		.embed-responsive
+			max-width: 1199px
+			//height: 650px
+			margin: auto
+
+.mentors
+	background-color: $default-red
+	.mentors-container
+		max-width: $container-xl
+		margin: auto
+		padding: 0 1rem
+	&__title
+		color: #fff
+		font-size: 132px
+		font-family: $font-medium
+		letter-spacing: 4.5px
+		margin-bottom: 1rem
+		padding-top: 55px
+		text-align: center
+		text-transform: uppercase
