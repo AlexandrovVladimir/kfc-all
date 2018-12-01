@@ -3,7 +3,8 @@
 @import 'vars'
 @import 'mixins'
 @import 'fonts'
-@import 'sections'
+@import 'sections.sass'
+@import 'timer.sass'
 
 *
   box-sizing: border-box
@@ -38,6 +39,9 @@ a
 section
   position: relative
  
+#hidden-content
+  display: none
+  
 /* slick default */
 .slick-loading .slick-list
   background: #fff url('../img/ajax-loader.gif') center center no-repeat

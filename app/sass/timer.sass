@@ -1,0 +1,35 @@
+@import vars
+@import mixins
+
+
+.timer
+	display: flex
+	align-items: center
+	justify-content: center
+	margin-top: 80px
+	.timer-custom
+		display: flex
+		flex-wrap: wrap
+		justify-content: center
+		text-align: center
+		&__value
+			color: $default-red
+			font-size: 110px
+			font-family: $font-regular
+			flex: 0 0 100%
+			line-height: 1
+			max-width: 100%
+		&__text
+			color: #aaaaaa
+			font-size: 20px
+			font-family: $font-regular
+			margin-top: 35px
+			flex: 0 0 100%
+			max-width: 100%
+			text-transform: uppercase
+		&__separator
+			transform: translateY(-25px)
+			img
+				margin: 0 1rem
+			
+	

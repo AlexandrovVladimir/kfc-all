@@ -9,12 +9,31 @@
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
+
+  <meta property="og:image" itemprop="image" content="<?php echo get_template_directory_uri(); ?>/img/slider1.jpg">
+  <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/img/slider1.jpg">
+  <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/img/slider1.jpg">
+
+  <!-- FB -->
+  <meta property="og:url"                content="http://localhost:3000/" />
+  <meta property="og:type"               content="http://localhost:3000/" />
+  <meta property="og:title"              content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+  <meta property="og:description"        content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+  <meta property="og:image" itemprop="image" content="img/logo.png">
+  <meta property="fb:app_id" content="идентификатор_вашего_приложения_Facebook" />
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+  <meta name="twitter:description" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+  <meta name="twitter:image" content="img/logo.png">
 
   <meta property="og:image" content="img/favicon/image.jpg">
   <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-16x16.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-32x32.png">
 
   <!-- Chrome, Firefox OS and Opera -->
   <meta name="theme-color" content="#000">
@@ -31,9 +50,9 @@
     <div class="header">
       <div class="header-container">
         <div class="header-helper"></div>
-        <div class="lines header-lines"><img src="img/lines.png" alt="lines"></div>
+        <div class="lines header-lines"><img src="img/lines.svg" alt="lines"></div>
         <a href="#" class="header-logo">
-          <img src="img/logo.png" alt="logo">
+          <img src="img/logo.svg" alt="logo">
         </a>
       </div>
     </div>
@@ -44,8 +63,8 @@
           <!--<span class="top__text_bold_red">Высшая лига Сандерса</span>-->
           <!--<span class="top__text_big">Sanders top league</span>-->
           <img src="img/section-title.png" class="top-description__image" alt="title">
-          <span class="top__text_date">21 февраля 2019</span>
-          <div class="lines"><img src="img/lines.png" alt="lines"></div>
+          <div class="top__text_date">Москва <span class="top__text_separator"></span> 21 февраля 2019</div>
+          <div class="lines"><img src="img/lines.svg" alt="lines"></div>
         </div>
       </div>
     </div>
@@ -70,18 +89,83 @@
     </div>
   </section>
 
-  <section class="video">
-    <div class="video-container">
-      <div class="lines video-lines"><img src="img/lines.png" alt="lines"></div>
-      <div class="video-item">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2vjPBrBU-TM"></iframe>
+  <section class="information">
+    <img src="img/face.png" alt="face" class="information-face">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 p-0">
+          <ul class="information-list">
+            <li class="information-list__item">
+              <div class="information-text">
+                <span class="information-text_normal">Зрелищная и супердрайвовая</span>
+                <span class="information-text_big">танцевальная битва</span>
+              </div>
+            </li>
+            <li class="information-list__item">
+              <div class="information-text">
+                <span class="information-text_normal">1-й этап – отбор полуфиналистов<br>2 этап – суперфинал</span>
+                <span class="information-text_big">учавствуют только<br>танцоры!</span>
+              </div>
+            </li>
+            <li class="information-list__item">
+              <div class="information-text">
+                <span class="information-text_normal">Новые правила отбора участников</span>
+                <span class="information-text_big">голосования не будет!</span>
+              </div>
+            </li>
+            <li class="information-list__item">
+              <div class="information-text">
+                <span class="information-text_normal">Пять крутейших профессиональных хореографов Москвы лично отберут участников в свои команды</span>
+                <span class="information-text_big">в шоу только через кастинг!</span>
+              </div>
+            </li>
+            <li class="information-list__item">
+              <div class="information-text last">
+                <span class="information-text_normal">Работники региональных ресторанов и центрального офиса примут участие в танцевальном конкурсе на общих основаниях. <br> А его победители станут равнозначными членами шоу-команд.</span>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="lines video-lines"><img src="img/lines.png" alt="lines"></div>
+    </div>
+    <div class="lines information-lines information-lines_rotate"><img src="img/lines.svg" alt="lines"></div>
+  </section>
+  <section class="information information-second">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 p-0">
+          <div class="lines information-lines"><img src="img/lines.svg" alt="lines"></div>
+          <p class="information-question">Любишь танцевать дома перед зеркалом?</p>
+          <p class="information-question">Был звездой школьных дискотек?</p>
+          <div class="information-stars">
+            <div class="information-stars__text">А может, тайно мечтаешь стать лидером dаnce-команды KFC?</div>
+            <div class="stars">
+              <img src="img/icon-star.png" alt="star">
+              <img src="img/icon-star.png" alt="star">
+              <img src="img/icon-star.png" alt="star">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
-  
+
+  <section class="video">
+    <div class="video-container">
+      <div class="video__title">
+        <div class="video__title_big">ПРИМИ УЧАСТИЕ В КАСТИНГЕ – И БУДЬ В ТАНЦАХ!</div>
+        <span class="video__title_normal">Ещё сомневаешься?</span>
+        <span class="video__title_normal_red">Тогда жми на play</span>
+      </div>
+      <div class="video-item">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="lines video-lines"><img src="img/lines.svg" alt="lines"></div>
+    </div>
+  </section>
+
   <section class="mentors">
     <div class="mentors-container">
       <div class="mentors__title">
@@ -89,42 +173,160 @@
       </div>
       <ul class="mentors-list">
         <li class="mentors-list__item">
-          <div class="mentors-list__image">
-            <img src="img/mentor.png" alt="mentor">
+          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
+            <img src="img/img1.png" alt="mentor">
           </div>
-          <div class="mentors-list__name">Петр Петров</div>
+          <div class="mentors-list__name">Андрей Чили</div>
+          <ul class="mentors-list-inside">
+            <li><span>Режиссер, профессиональный хореограф, педагог и танцовщик.</span></li>
+            <li><span>Постановщик шоу-программ и номеров для шоу, фестивалей и телепроектов.</span></li>
+            <li><span>Сотрудничает со многими звездами российской эстрады.</span></li>
+            <li><span>Хореограф и основатель DaVinci Project</span></li>
+          </ul>
         </li>
         <li class="mentors-list__item">
-          <div class="mentors-list__image">
-            <img src="img/mentor.png" alt="mentor">
+          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
+            <img src="img/img2.png" alt="mentor">
           </div>
-          <div class="mentors-list__name">Петр Петров</div>
+          <div class="mentors-list__name">Андрей Кошеваров</div>
+          <ul class="mentors-list-inside">
+            <li><span>Основатель и хореограф команды La Kosh.</span></li>
+            <li><span>Многократный победитель российских и международных танцевальных баттлов.</span></li>
+            <li><span>Проходил практику у лучших хореографов мира.</span></li>
+          </ul>
+        </li>
+        <li class="mentors-list__item" data-fancybox data-src="#hidden-content" href="javascript:;">
+          <div class="mentors-list__image">
+            <img src="img/img3.png" alt="mentor">
+          </div>
+          <div class="mentors-list__name">Инна Аполонская</div>
+          <ul class="mentors-list-inside">
+            <li><span>Хореограф, педагог направлений High heels, Jazz Funk, Strip Dance, Waking.</span></li>
+            <li><span>Хореограф Церемонии закрытия Чемпионата Мира по футболу 2018.</span></li>
+            <li><span>Хореограф-постановщик ежегодного оупен-эйра Europa Plus Live.</span></li>
+            <li><span>Многократный победитель Чемпионата России по современным танцам.</span></li>
+          </ul>
         </li>
         <li class="mentors-list__item">
-          <div class="mentors-list__image">
-            <img src="img/mentor.png" alt="mentor">
+          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
+            <img src="img/img4.png" alt="mentor">
           </div>
-          <div class="mentors-list__name">Петр Петров</div>
+          <div class="mentors-list__name">Дмитрий Лукашин</div>
+          <ul class="mentors-list-inside">
+            <li><span>Хореограф и педагог в направлениях Hip-hop, R&B, House, LA, Jazz-Funk, Locking, современная хореография, клубные танцы.</span></li>
+            <li><span>Участник проектов "Жара", "Лига удивительных людей", "Достояние республики". Хореограф в губернском театре Сергея Безрукова.</span></li>
+          </ul>
         </li>
         <li class="mentors-list__item">
-          <div class="mentors-list__image">
-            <img src="img/mentor.png" alt="mentor">
+          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
+            <img src="img/img5.png" alt="mentor">
           </div>
-          <div class="mentors-list__name">Петр Петров</div>
+          <div class="mentors-list__name">Анжела Чашина</div>
+          <ul class="mentors-list-inside">
+            <li><span>Педагог и хореограф-постановщик в стилях Contemporary, Jazz-modern, Broadway dance, современная хореография, эстрадный танец.</span></li>
+            <li><span>Хореограф Академии мьюзикла.</span></li>
+            <li><span>Хореограф и солистка Московского театра Варьете, артист балета Московской Оперетты.</span></li>
+          </ul>
         </li>
-        <li class="mentors-list__item">
-          <div class="mentors-list__image">
-            <img src="img/mentor.png" alt="mentor">
+      </ul>
+      <div id="hidden-content" class="mentors-data-wrapper">
+        <div class="mentors-data">
+          <div class="mentors-data__name"></div>
+          <ul class="mentors-data__description"></ul>
+        </div>
+      </div>
+      <div class="mentors-list__label text-center">Кликни на фото и ознакомься с наставником</div>
+    </div>
+  </section>
+
+  <section class="talent">
+    <div class="lines talent-lines"><img src="img/lines.svg" alt="lines"></div>
+    <div class="talent-container">
+      <div class="talent__title">
+        нам нужен твой талант!
+      </div>
+      <div class="talent-wrapper">
+        <div class="talent__left">
+          <!--<img src="img/girl.png" alt="girl">-->
+          <img src="img/girlnew.png" alt="girl">
+        </div>
+        <div class="talent__right">
+          <div class="talent__date">10-21 декабря 2018</div>
+          <div class="talent__title_red">
+            приём видеозаявок и
+            отбор полуфиналистов
           </div>
-          <div class="mentors-list__name">Петр Петров</div>
+          <div class="talent__text">
+            Сними на смартфон свой импровизационный
+            танец в произвольном стиле под любую
+            музыку – и загрузи видеозаявку на сайт до
+            21 декабря включительно.
+          </div>
+          <div class="talent__text_light">
+            ВНИМАНИЕ! После приема видеозаявок каждый из 5-ти наставников шоу отберет свою группу
+            полуфиналистов, которые будут допущены ко второму этапу кастинга. Только эти участники продолжат
+            борьбу за право попадания в итоговые составы шоу-команд.
+          </div>
+          <div class="talent__text_light">Результаты первого этапа кастинга будут опубликованы на сайте 24 декабря.</div>
+          <ul class="talent-list">
+            <li class="talent-list__item talent__text_light">
+              Рекомендации для съёмки: помещение с хорошим освещением, отсутствие посторонних
+              шумов в кадре, яркое звучание фонограммы. Обязательное условие –расположение человека
+              в кадре в полный рост.
+            </li>
+            <li class="talent-list__item talent__text_light">Сделай несколько дублей и выбери для отправки один лучший</li>
+            <li class="talent-list__item talent__text_light">Длительность видео – не более одной минуты </li>
+          </ul>
+          <a href="#" class="talent-send">Подать заявку</a>
+        </div>
+      </div>
+    </div>
+    <div class="lines talent-lines"><img src="img/lines.svg" alt="lines"></div>
+  </section>
+
+  <section class="feedback">
+    <div class="lines feedback-lines"><img src="img/lines.svg" alt="lines"></div>
+    <div class="feedback-container">
+      <div class="feedback__title">до окончания приема заявок первого этапа осталось</div>
+      <div id="timer" class="timer"></div>
+
+      <div class="feedback-casting">
+        <div class="feedback-casting__title">
+          ЗАПОЛНИ ЗАЯВКУ НА УЧАСТИЕ В ТАНЦЕВАЛЬНОМ КАСТИНГЕ
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <ul class="footer-list">
+        <li class="footer-list__item">
+          <a href="#"><img src="img/logo-yum-fm.png" alt="logo"></a>
+        </li>
+        <li class="footer-list__item">
+          <span>Следи за обновлениями на сайте</span>
+          <span>Слушай радиоэфиры YUM.FM</span>
+          <span>Дополнительные вопросы отправляй на почту Orgteam</span>
+          <div><a href="mailto: Alyona.Klyuchareva@yum.com">Alyona.Klyuchareva@yum.com</a></div>
+          <div><a href="mailto: Elena.Yakubova@yum.com">Elena.Yakubova@yum.com</a></div>
+        </li>
+        <li class="footer-list__item">
+          <div class="footer-social">
+            <a href="https://api.whatsapp.com/send?phone=79670200824" target="_blank" class="footer-social__link footer-social__link_whatsup"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://t.me/yumfm" target="_blank" class="footer-social__link footer-social__link_telegram"><i class="fab fa-telegram-plane"></i></a>
+          </div>
         </li>
       </ul>
     </div>
-  </section>
+  </footer>
 
 
 
   <script src="js/libs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
   <script src="js/common.js"></script>
+  <script src="js/timer.js"></script>
+
 </body>
 </html>
