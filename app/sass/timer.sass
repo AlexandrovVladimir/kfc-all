@@ -1,17 +1,31 @@
 @import vars
 @import mixins
 
-
+//@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+///* IE10+ CSS styles go here */
+//.timer .timer-custom__value {
+//	min-width: 120px;
+//}
+//.timer .timer-custom:first-child .timer-custom__value {
+//	min-width: 60px;
+//}
+//}
 .timer
 	display: flex
 	align-items: center
 	justify-content: center
 	margin-top: 80px
+	@media screen and (max-width: 767px)
+		margin-top: 50px
 	.timer-custom
 		display: flex
 		flex-wrap: wrap
 		justify-content: center
 		text-align: center
+		&:first-child
+			@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+				.timer-custom__value
+					min-width: 60px
 		&__value
 			color: $default-red
 			font-size: 110px
@@ -19,6 +33,10 @@
 			flex: 0 0 100%
 			line-height: 1
 			max-width: 100%
+			@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+				min-width: 120px
+			@media screen and (max-width: 767px)
+				font-size: 50px
 		&__text
 			color: #aaaaaa
 			font-size: 20px
@@ -27,9 +45,24 @@
 			flex: 0 0 100%
 			max-width: 100%
 			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				font-size: 14px
+				margin-top: 1rem
 		&__separator
+			background: url('../img/separator.png') no-repeat center
 			transform: translateY(-25px)
+			width: 20px
+			height: 60px
+			@media screen and (max-width: 767px)
+				width: 5px
+				height: 15px
+				transform: translateY(-10px)
 			img
 				margin: 0 1rem
+				@media screen and (max-width: 767px)
+					width: 5px
 			
+.custom-select
+	&--active
+		z-index: 999
 	

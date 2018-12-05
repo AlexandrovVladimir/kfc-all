@@ -4,6 +4,7 @@
 @import 'mixins'
 @import 'fonts'
 @import 'sections.sass'
+@import 'helper-validate.sass'
 @import 'timer.sass'
 
 *
@@ -38,11 +39,104 @@ a
 
 section
   position: relative
- 
-#hidden-content
-  display: none
   
 /* slick default */
 .slick-loading .slick-list
   background: #fff url('../img/ajax-loader.gif') center center no-repeat
 /*/ slick default */
+
+/* custom select */
+.custom-select
+  background: none
+  border: none
+  color: $color-black
+  font-family: $font-regular
+  font-size: 14px
+  padding: 0
+  height: 60px
+  width: 100%
+  text-align: center
+  &__option
+    color: rgb(195, 195, 195) !important
+    width: 100%
+    height: 100%
+    text-align: center !important
+    padding: 0
+    &--value
+      border: 1px solid rgb(195, 195, 195) !important
+      -webkit-border-radius: 10px !important
+      -moz-border-radius: 10px !important
+      border-radius: 10px !important
+      color: $color-black !important
+      &:after
+        color: $default-red
+  &__dropdown
+    background-color: #fff
+    border: 1px solid rgb(195, 195, 195) !important
+    -webkit-border-radius: 10px !important
+    -moz-border-radius: 10px !important
+    border-radius: 10px !important
+    margin-top: 2px
+    max-height: 260px
+    button
+      &:hover, &:focus
+        background-color: #e6e6e6
+  &--dropup
+    .custom-select__dropdown
+      bottom: auto !important
+/*/ custom select */
+
+/* custom scroll */
+.mCSB_scrollTools .mCSB_draggerRail
+  background-color: transparent !important
+.mCSB_inside>.mCSB_container
+  margin-right: 0 !important
+.mCSB_2_scrollbar_vertical
+  z-index: 2
+.mCSB_scrollTools
+  width: 1rem !important
+.mCSB_scrollTools .mCSB_draggerRail
+  width: 2px !important
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar
+  background-color: rgb(195, 195, 195) !important
+/*/ custom scroll */
+
+/*slick default*/
+.slick-next, .slick-prev
+  transform: unset
+  &:before
+    display: none
+/*/slick default*/
+
+.fancybox-slide
+  height: auto !important
+  top: 50% !important
+  transform: translateY(-50%) !important
+  transition-property: all !important
+  &:before
+    display: none !important
+
+\::-webkit-input-placeholder
+  /* Chrome/Opera/Safari
+  color: rgb(171, 171, 171)
+  font-family: $font-regular
+  font-size: 16px
+
+\::-moz-placeholder
+  /* Firefox 19+
+  color: rgb(171, 171, 171)
+  font-family: $font-regular
+  font-size: 16px
+
+\:-ms-input-placeholder
+  /* IE 10+
+  color: rgb(171, 171, 171)
+  font-family: $font-regular
+  font-size: 16px
+
+\:-moz-placeholder
+  /* Firefox 18-
+  color: rgb(171, 171, 171)
+  font-family:  $font-regular
+  font-size: 16px
+

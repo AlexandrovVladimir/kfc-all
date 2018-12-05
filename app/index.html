@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -9,27 +9,33 @@
   <link rel="stylesheet" href="css/libs.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.css">
-
-  <meta property="og:image" itemprop="image" content="<?php echo get_template_directory_uri(); ?>/img/slider1.jpg">
-  <meta name="twitter:image" content="<?php echo get_template_directory_uri(); ?>/img/slider1.jpg">
-  <meta name="twitter:image:src" content="<?php echo get_template_directory_uri(); ?>/img/slider1.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="js/jquery-custom-select-master/dist/css/jquery.custom-select.min.css">
+  <link rel="stylesheet" href="js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.min.css">
 
   <!-- FB -->
-  <meta property="og:url"                content="http://localhost:3000/" />
-  <meta property="og:type"               content="http://localhost:3000/" />
+  <meta property="og:url"                content="http://kfc.8.ficuslife.pp.ua/" />
+  <meta property="og:type"               content="http://kfc.8.ficuslife.pp.ua/" />
   <meta property="og:title"              content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
   <meta property="og:description"        content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
-  <meta property="og:image" itemprop="image" content="img/logo.png">
+  <meta property="og:image" itemprop="image" content="img/favicon/1.jpg" />
   <meta property="fb:app_id" content="идентификатор_вашего_приложения_Facebook" />
 
   <!-- twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="img/favicon/1.jpg" />
   <meta name="twitter:title" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
   <meta name="twitter:description" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
-  <meta name="twitter:image" content="img/logo.png">
+  <meta name="twitter:image" content="img/favicon/1.jpg" />
 
-  <meta property="og:image" content="img/favicon/image.jpg">
+  <!-- telegram -->
+  <meta property="og:image" content="img/favicon/1.jpg">
+  <meta property="og:title" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+  <meta property="og:site_name" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE"/>
+  <meta property="og:description" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+  <meta property="og:image" content="img/favicon/1.jpg" />
+
+  <meta name="description" content="ВЫСШАЯ ЛИГА САНДЕРСА / SANDERS TOP LEAGUE" />
+
   <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-16x16.png">
@@ -51,6 +57,7 @@
       <div class="header-container">
         <div class="header-helper"></div>
         <div class="lines header-lines"><img src="img/lines.svg" alt="lines"></div>
+        <div class="lines-mob header-lines header-lines-mob"><img src="img/lines.svg" alt="lines"></div>
         <a href="#" class="header-logo">
           <img src="img/logo.svg" alt="logo">
         </a>
@@ -60,11 +67,12 @@
       <div class="top-container">
         <div class="top-description">
           <span class="top__text">ЕЖЕГОДНАЯ КОНФЕРЕНЦИЯ KFC RUSSIA, CIS & CEE</span>
-          <!--<span class="top__text_bold_red">Высшая лига Сандерса</span>-->
-          <!--<span class="top__text_big">Sanders top league</span>-->
-          <img src="img/section-title.png" class="top-description__image" alt="title">
+          <span class="top__text_bold_red">Высшая лига Сандерса</span>
+          <span class="top__text_big">Sanders top league</span>
+          <!--<img src="img/section-title.png" class="top-description__image" alt="title">-->
           <div class="top__text_date">Москва <span class="top__text_separator"></span> 21 февраля 2019</div>
           <div class="lines"><img src="img/lines.svg" alt="lines"></div>
+          <div class="lines-mob top-lines-mob"><img src="img/rectangle-mob.png" alt="lines"></div>
         </div>
       </div>
     </div>
@@ -129,20 +137,22 @@
       </div>
     </div>
     <div class="lines information-lines information-lines_rotate"><img src="img/lines.svg" alt="lines"></div>
+    <div class="lines-mob information-lines information-lines-mob information-lines-mob_rotate"><img src="img/rectangle-mob.png" alt="lines"></div>
   </section>
   <section class="information information-second">
     <div class="container">
       <div class="row">
         <div class="col-12 p-0">
           <div class="lines information-lines"><img src="img/lines.svg" alt="lines"></div>
+          <div class="lines lines-mob information-lines-mob"><img src="img/lines.svg" alt="lines"></div>
           <p class="information-question">Любишь танцевать дома перед зеркалом?</p>
           <p class="information-question">Был звездой школьных дискотек?</p>
           <div class="information-stars">
             <div class="information-stars__text">А может, тайно мечтаешь стать лидером dаnce-команды KFC?</div>
             <div class="stars">
-              <img src="img/icon-star.png" alt="star">
-              <img src="img/icon-star.png" alt="star">
-              <img src="img/icon-star.png" alt="star">
+              <img src="img/icon-star.svg" alt="star">
+              <img src="img/icon-star.svg" alt="star">
+              <img src="img/icon-star.svg" alt="star">
             </div>
           </div>
         </div>
@@ -159,10 +169,16 @@
       </div>
       <div class="video-item">
         <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
+          <div class="thumbnail_container js-videoIframe" style="background: url('img/favicon/1.jpg') no-repeat; -webkit-background-size: cover;background-size: cover;" data-video-id="YykjpeuMNEk" id="136">
+            <div class="video-button">
+              <svg aria-hidden="true" data-prefix="fas" data-icon="play-circle" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-play-circle fa-w-16 fa-3x"><path fill="currentColor" d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm115.7 272l-176 101c-15.8 8.8-35.7-2.5-35.7-21V152c0-18.4 19.8-29.8 35.7-21l176 107c16.4 9.2 16.4 32.9 0 42z" class=""></path></svg>
+            </div>
+          </div>
         </div>
+        <!--<iframe class="embed-responsive-item" width="975" height="665" src="https://www.youtube.com/embed/YykjpeuMNEk?&theme=dark&autohide=2&showinfo=0" frameborder="0"></iframe>-->
       </div>
       <div class="lines video-lines"><img src="img/lines.svg" alt="lines"></div>
+      <div class="lines-mob video-lines-mob"><img src="img/lines.svg" alt="lines"></div>
     </div>
   </section>
 
@@ -173,73 +189,105 @@
       </div>
       <ul class="mentors-list">
         <li class="mentors-list__item">
-          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
-            <img src="img/img1.png" alt="mentor">
+          <div class="mentors-list__image">
+            <img src="img/img1.png" alt="mentor" data-src="#hidden-content1">
           </div>
           <div class="mentors-list__name">Андрей Чили</div>
-          <ul class="mentors-list-inside">
-            <li><span>Режиссер, профессиональный хореограф, педагог и танцовщик.</span></li>
-            <li><span>Постановщик шоу-программ и номеров для шоу, фестивалей и телепроектов.</span></li>
-            <li><span>Сотрудничает со многими звездами российской эстрады.</span></li>
-            <li><span>Хореограф и основатель DaVinci Project</span></li>
-          </ul>
+          <div id="hidden-content1" style="display: none; opacity: 0;" class="mentors-data-wrapper">
+            <div class="mentors-data">
+              <div class="mentors-data__name">Андрей Чили</div>
+              <ul class="mentors-list-inside mt-2">
+                <li><span>Режиссер, профессиональный хореограф, педагог и танцовщик.</span></li>
+                <li><span>Постановщик шоу-программ и номеров для шоу, фестивалей и телепроектов.</span></li>
+                <li><span>Сотрудничает со многими звездами российской эстрады.</span></li>
+                <li><span>Хореограф и основатель DaVinci Project</span></li>
+              </ul>
+            </div>
+          </div>
         </li>
         <li class="mentors-list__item">
-          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
-            <img src="img/img2.png" alt="mentor">
+          <div class="mentors-list__image">
+            <img src="img/img2.png" alt="mentor" data-src="#hidden-content2">
           </div>
           <div class="mentors-list__name">Андрей Кошеваров</div>
-          <ul class="mentors-list-inside">
-            <li><span>Основатель и хореограф команды La Kosh.</span></li>
-            <li><span>Многократный победитель российских и международных танцевальных баттлов.</span></li>
-            <li><span>Проходил практику у лучших хореографов мира.</span></li>
-          </ul>
+          <div id="hidden-content2" style="display: none; opacity: 0;" class="mentors-data-wrapper">
+            <div class="mentors-data">
+              <div class="mentors-data__name">Андрей Кошеваров</div>
+              <ul class="mentors-list-inside mt-2">
+                <li><span>Основатель и хореограф команды La Kosh.</span></li>
+                <li><span>Многократный победитель российских и международных танцевальных баттлов.</span></li>
+                <li><span>Проходил практику у лучших хореографов мира.</span></li>
+              </ul>
+            </div>
+          </div>
         </li>
-        <li class="mentors-list__item" data-fancybox data-src="#hidden-content" href="javascript:;">
+        <li class="mentors-list__item">
           <div class="mentors-list__image">
-            <img src="img/img3.png" alt="mentor">
+            <img src="img/img3.png" alt="mentor" data-src="#hidden-content3">
           </div>
           <div class="mentors-list__name">Инна Аполонская</div>
-          <ul class="mentors-list-inside">
-            <li><span>Хореограф, педагог направлений High heels, Jazz Funk, Strip Dance, Waking.</span></li>
-            <li><span>Хореограф Церемонии закрытия Чемпионата Мира по футболу 2018.</span></li>
-            <li><span>Хореограф-постановщик ежегодного оупен-эйра Europa Plus Live.</span></li>
-            <li><span>Многократный победитель Чемпионата России по современным танцам.</span></li>
-          </ul>
+          <div id="hidden-content3" style="display: none; opacity: 0;" class="mentors-data-wrapper">
+            <div class="mentors-data">
+              <div class="mentors-data__name">Инна Аполонская</div>
+              <ul class="mentors-list-inside mt-2">
+                <li><span>Хореограф, педагог направлений High heels, Jazz Funk, Strip Dance, Waking.</span></li>
+                <li><span>Хореограф Церемонии закрытия Чемпионата Мира по футболу 2018.</span></li>
+                <li><span>Хореограф-постановщик ежегодного оупен-эйра Europa Plus Live.</span></li>
+                <li><span>Многократный победитель Чемпионата России по современным танцам.</span></li>
+              </ul>
+            </div>
+          </div>
         </li>
         <li class="mentors-list__item">
-          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
-            <img src="img/img4.png" alt="mentor">
+          <div class="mentors-list__image">
+            <img src="img/img4.png" alt="mentor" data-src="#hidden-content4">
           </div>
           <div class="mentors-list__name">Дмитрий Лукашин</div>
-          <ul class="mentors-list-inside">
-            <li><span>Хореограф и педагог в направлениях Hip-hop, R&B, House, LA, Jazz-Funk, Locking, современная хореография, клубные танцы.</span></li>
-            <li><span>Участник проектов "Жара", "Лига удивительных людей", "Достояние республики". Хореограф в губернском театре Сергея Безрукова.</span></li>
-          </ul>
+          <div id="hidden-content4" style="display: none; opacity: 0;" class="mentors-data-wrapper">
+            <div class="mentors-data">
+              <div class="mentors-data__name">Дмитрий Лукашин</div>
+              <ul class="mentors-list-inside mt-2">
+                <li><span>Хореограф и педагог в направлениях Hip-hop, R&B, House, LA, Jazz-Funk, Locking, современная хореография, клубные танцы.</span></li>
+                <li><span>Участник проектов "Жара", "Лига удивительных людей", "Достояние республики". Хореограф в губернском театре Сергея Безрукова.</span></li>
+              </ul>
+            </div>
+          </div>
         </li>
         <li class="mentors-list__item">
-          <div class="mentors-list__image" data-fancybox data-src="#hidden-content" href="javascript:;">
-            <img src="img/img5.png" alt="mentor">
+          <div class="mentors-list__image">
+            <img src="img/img5.png" alt="mentor"  data-src="#hidden-content5">
           </div>
           <div class="mentors-list__name">Анжела Чашина</div>
-          <ul class="mentors-list-inside">
-            <li><span>Педагог и хореограф-постановщик в стилях Contemporary, Jazz-modern, Broadway dance, современная хореография, эстрадный танец.</span></li>
-            <li><span>Хореограф Академии мьюзикла.</span></li>
-            <li><span>Хореограф и солистка Московского театра Варьете, артист балета Московской Оперетты.</span></li>
-          </ul>
+          <div id="hidden-content5" style="display: none; opacity: 0;" class="mentors-data-wrapper">
+            <div class="mentors-data">
+              <div class="mentors-data__name">Анжела Чашина</div>
+              <ul class="mentors-list-inside mt-2">
+                <li><span>Педагог и хореограф-постановщик в стилях Contemporary, Jazz-modern, Broadway dance, современная хореография, эстрадный танец.</span></li>
+                <li><span>Хореограф Академии мьюзикла.</span></li>
+                <li><span>Хореограф и солистка Московского театра Варьете, артист балета Московской Оперетты.</span></li>
+              </ul>
+            </div>
+          </div>
         </li>
       </ul>
-      <div id="hidden-content" class="mentors-data-wrapper">
-        <div class="mentors-data">
-          <div class="mentors-data__name"></div>
-          <ul class="mentors-data__description"></ul>
-        </div>
-      </div>
+      <!--<div id="hidden-content" class="mentors-data-wrapper">-->
+        <!--<div class="mentors-data">-->
+          <!--<div class="mentors-data__name"></div>-->
+          <!--<ul class="mentors-data__description"></ul>-->
+        <!--</div>-->
+      <!--</div>-->
       <div class="mentors-list__label text-center">Кликни на фото и ознакомься с наставником</div>
     </div>
   </section>
 
-  <section class="talent">
+  <section class="girl-mobile">
+    <div class="girl-mobile-container">
+      <img src="img/girlnew.png" class="girl-mobile__image" alt="girl">
+      <div class="lines-mob girl-mobile-lines-mob"><img src="img/lines.svg" alt="lines"></div>
+    </div>
+  </section>
+
+  <section class="talent" id="talent">
     <div class="lines talent-lines"><img src="img/lines.svg" alt="lines"></div>
     <div class="talent-container">
       <div class="talent__title">
@@ -277,22 +325,214 @@
             <li class="talent-list__item talent__text_light">Сделай несколько дублей и выбери для отправки один лучший</li>
             <li class="talent-list__item talent__text_light">Длительность видео – не более одной минуты </li>
           </ul>
-          <a href="#" class="talent-send">Подать заявку</a>
+          <a href="#feedback-casting" class="talent-send">Подать заявку</a>
         </div>
       </div>
     </div>
-    <div class="lines talent-lines"><img src="img/lines.svg" alt="lines"></div>
+    <div class="lines talent-lines talent-lines-last"><img src="img/lines.svg" alt="lines"></div>
+    <div class="lines-mob talent-lines-mob"><img src="img/lines.svg" alt="lines"></div>
   </section>
 
   <section class="feedback">
     <div class="lines feedback-lines"><img src="img/lines.svg" alt="lines"></div>
+    <div class="lines-mob feedback-lines-mob"><img src="img/lines.svg" alt="lines"></div>
+    <img src="img/blurimg.png" alt="blur" class="feedback__absolute feedback__absolute_right">
+    <img src="img/Bucket_01.png" alt="Bucket_01" class="feedback__absolute feedback__absolute_left">
     <div class="feedback-container">
       <div class="feedback__title">до окончания приема заявок первого этапа осталось</div>
-      <div id="timer" class="timer"></div>
-
-      <div class="feedback-casting">
+      <div id="timer" class="timer" data-time="2018/12/07 11:00:00"></div>
+      <div class="feedback-casting" id="feedback-casting">
         <div class="feedback-casting__title">
           ЗАПОЛНИ ЗАЯВКУ НА УЧАСТИЕ В ТАНЦЕВАЛЬНОМ КАСТИНГЕ
+        </div>
+        <form class="feedback-casting-form" id="feedback-casting-form"
+              action="http://kfcnolimits.ru/" method="post" enctype="multipart/form-data">
+          <div class="container">
+            <div class="row justify-content-center feedback-casting-form-success-form">
+              <div class="col-12 col-sm-4">
+                <label class="feedback-casting-form-wrap" for="req1">
+                  <span class="feedback-casting-form__name">Фио</span>
+                  <input type="text" id="req1" class="feedback-casting-form__input validation-input" name="name" placeholder="Иванов Иван Петрович">
+                </label>
+                <label class="feedback-casting-form-wrap" for="req2">
+                  <span class="feedback-casting-form__name">Город</span>
+                  <input type="text" id="req2" class="feedback-casting-form__input validation-input" name="city" placeholder="Москва">
+                </label>
+                <label class="feedback-casting-form-wrap" for="req3">
+                  <span class="feedback-casting-form__name">Должность</span>
+                  <input type="text" id="req3" class="feedback-casting-form__input validation-input" name="position" placeholder="Менеджер">
+                </label>
+                <label class="feedback-casting-form-wrap" for="req4">
+                  <span class="feedback-casting-form__name">Ресторан</span>
+                  <select id="req4" class="feedback-casting-form__select feedback-casting-form__select_restorants validation-input" name="restoran" style="opacity: 0;">
+                    <!--<option selected value="Название ресторана">Название ресторана</option>-->
+                    <option value="1">Южный</option>
+                    <option value="2">Северный</option>
+                    <option value="3">Западный</option>
+                    <option value="4">Восточный</option>
+                  </select>
+                </label>
+              </div>
+              <div class="col-12 col-sm-4">
+                <label class="feedback-casting-form-wrap" for="req5">
+                  <span class="feedback-casting-form__name">Компания</span>
+                  <select id="req5" class="feedback-casting-form__select feedback-casting-form__select_companies" name="company" style="opacity: 0;">
+                    <!--<option selected value="Название компании">Название компании</option>-->
+                    <option value="24">GFC LLC</option>
+                    <option value="8">OOO "Джамп.Юнайтед Ресторантс Групп"</option>
+                    <option value="6">OOO "ПланинвестПроект" </option>
+                    <option value="23">The Caspian International Restaurants Company LLP</option>
+                    <option value="40">YUM! Russia</option>
+                    <option value="29">Альянс</option>
+                    <option value="20">АОЗТ "Фаст Фуд"</option>
+                    <option value="35">Гарант Инвест</option>
+                    <option value="2">Группа компаний РС </option>
+                    <option value="34">Гуд Фуд</option>
+                    <option value="33">Гуд Фуд Липецк</option>
+                    <option value="18">ЗАО "Стерх"</option>
+                    <option value="31">Новый Вкус</option>
+                    <option value="36">ООО "International Foodchain NEW"</option>
+                    <option value="12">ООО "АмРест"</option>
+                    <option value="27">ООО "Бел Фуд Сервис"</option>
+                    <option value="30">ООО "Глав Фуд Групп"</option>
+                    <option value="22">ООО "Глобальная Ресторанная Группа-Украина"</option>
+                    <option value="15">ООО "Гурман"</option>
+                    <option value="5">ООО "Ди Стайл"</option>
+                    <option value="10">ООО "Диадема 7"</option>
+                    <option value="11">ООО "ЗНАК"</option>
+                    <option value="38">ООО "Иберия Фуд"</option>
+                    <option value="39">ООО "КреативФудС-Восток"</option>
+                    <option value="13">ООО "КФС Ижевск"</option>
+                    <option value="37">ООО "Оптима Плюс"</option>
+                    <option value="17">ООО "Рестораны быстрого обслуживания" </option>
+                    <option value="14">ООО "Рос-Сар"</option>
+                    <option value="3">ООО "Рост-бистро" </option>
+                    <option value="4">ООО "Сити Ресторантс"</option>
+                    <option value="26">ООО "Тести Фуд"</option>
+                    <option value="19">ООО "УК АйРадио"</option>
+                    <option value="21">ООО "Украинская Пищевая Компания"</option>
+                    <option value="7">ООО "Фаст Фуд Сити"</option>
+                    <option value="1">ООО "Чанс" </option>
+                    <option value="25">ООО "Эй Кей Ресторантс Раша"</option>
+                    <option value="9">ООО "ЯммиКо"</option>
+                    <option value="16">ООО «Глобал Фуд»</option>
+                    <option value="28">Перспектива -Север</option>
+                    <option value="32">Фуд Дрим</option>
+                  </select>
+                </label>
+                <label class="feedback-casting-form-wrap" for="req6">
+                  <span class="feedback-casting-form__name">Телефон</span>
+                  <input type="text" id="req6" class="feedback-casting-form__input feedback-casting-form__input_telephone validation-input" name="tel"
+                         data-country="Россия" placeholder="+7 (XXX)  XXX-XX-XX">
+                </label>
+                <label class="feedback-casting-form-wrap" for="req7">
+                  <span class="feedback-casting-form__name">E-mail</span>
+                  <input type="text" id="req7" class="feedback-casting-form__input validation-input" name="email" placeholder="Elena.Yakubova@yum.com">
+                </label>
+                <div class="feedback-casting-form-wrap license">
+                  <label class="feedback-casting-form__row" for="req8">
+                    <input id="req8" type="checkbox" name="data">
+                    <span class="checkmark"></span>
+                    <span class="feedback-casting-form__license">Я даю согласие на <a href="">обработку персональных данных</a></span>
+                  </label>
+                  <label class="feedback-casting-form__row" for="req9">
+                    <input id="req9" type="checkbox" name="konkurse">
+                    <span class="checkmark"></span>
+                    <span class="feedback-casting-form__license">Я принимаю <a href="">условия конкурса</a></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="feedback-casting-form__download">
+                <input type="file" id="req10" class="feedback-casting-form__download_input" accept="video/*" disabled>
+                <label for="req10" type="file" class="feedback-casting-form__button feedback-casting-form__button_disable">
+                  <img src="img/download.png" alt=""><span>Загрузить видео</span>
+                </label>
+              </div>
+
+            </div>
+            <div class="row justify-content-center feedback-casting-form-success-row">
+              <div class="feedback-casting-form-progress">
+                <div class="feedback-casting-form-progress__digit"></div>
+                <div class="feedback-casting-form-progress__line"></div>
+              </div>
+              <div class="feedback-casting-form-success">
+                <div class="feedback-casting-form__text">
+                  <p>Заявка принята.</p>
+                  <p>Подтверждение отправлено на вашу почту</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="lines feedback-lines feedback-lines-last"><img src="img/lines.svg" alt="lines"></div>
+    <div class="lines-mob feedback-lines-mob"><img src="img/lines.svg" alt="lines"></div>
+  </section>
+
+  <section class="faq">
+    <img src="img/faqimg.png" class="faq_absolute" alt="image">
+    <div class="lines faq-lines"><img src="img/lines.svg" alt="lines"></div>
+    <div class="lines-mob faq-lines-mob"><img src="img/lines.svg" alt="lines"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 no-padding">
+          <div class="faq__title">Faq</div>
+          <ul class="faq-list">
+            <li class="faq-list__item">
+              <div class="faq-list-wrapper">
+                <span>1. ПОЧЕМУ ДЛЯ ШОУ 2019 ВЫБРАН ФОРМАТ ТАНЦЕВАЛЬНОГО БАТТЛА?</span>
+              </div>
+              <div class="faq-list-wrapper-request">
+                – Это зрелищный и самый трендовый формат шоу последних лет. Танцы объединят участников из разных стран. А кроме того – такого мы еще не делали!
+              </div>
+            </li>
+            <li class="faq-list__item">
+              <div class="faq-list-wrapper">
+                <span>2. ЭТО ЗНАЧИТ, ЧТО В ШОУ СМОГУТ ПРИНЯТЬ УЧАСТИЕ ТОЛЬКО ТАНЦОРЫ?</span>
+              </div>
+              <div class="faq-list-wrapper-request">
+                - Да, в этот раз мы ищем для шоу танцующих работников компании,
+                в кастинге наравне с работниками ресторанов могут принять участие и работники
+                московского центра поддержки.
+              </div>
+            </li>
+            <li class="faq-list__item">
+              <div class="faq-list-wrapper">
+                <span>3.  А КАК ЖЕ ВОКАЛИСТЫ? ОНИ НЕ СМОГУТ ПОПАСТЬ НА КОНФЕРЕНЦИЮ?</span>
+              </div>
+              <div class="faq-list-wrapper-request">
+                - Конечно, смогут! Специально для них мы организуем конкурс «10 лучших голосов KFC» и отдельный вокальный кастинг, который стартует сразу по окончанию танцевального.
+              </div>
+            </li>
+            <li class="faq-list__item">
+              <div class="faq-list-wrapper">
+                <span>4. СКОЛЬКО ВСЕГО СОТРУДНИКОВ ПРИМЕТ УЧАСТИЕ В ШОУ 2019? </span>
+              </div>
+              <div class="faq-list-wrapper-request">
+                - 100-130 танцоров из России, СНГ, Западной и Восточной Европы по итогам кастинга. Плюс 10 вокалистов, которые выступят с отдельным шоу-номером вне конкурса.
+              </div>
+            </li>
+            <li class="faq-list__item">
+              <div class="faq-list-wrapper">
+                <span>5. А БУДЕТ ЛИ В ЭТОМ ГОДУ ОНЛАЙН-ГОЛОСОВАНИЕ ЗА ПОБЕДИТЕЛЕЙ ШОУ?</span>
+              </div>
+              <div class="faq-list-wrapper-request">
+                - Обязательно! Смотрите прямую трансляцию Конференции 21 февраля 2019 года на сайте yum-fm.ru  и голосуйте – только от вас будет зависеть какая из 5-ти танцевальных команд станет победителем танцевального баттла!
+              </div>
+            </li>
+            <li class="faq-list__item">
+              <div class="faq-list-wrapper">
+                <span>6. ВО СКОЛЬКО НАЧНЕТСЯ ПРЯМАЯ ТРАНСЛЯЦИЯ?</span>
+              </div>
+              <div class="faq-list-wrapper-request">
+                - Ровно в 16.30 по московскому времени. Кстати, в этот раз у всей онлайн-аудитории будет уникальная возможность наблюдать за мероприятием с нескольких ракурсов, самостоятельно переключаясь на разные камеры в зале и даже за кулисами!
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -302,7 +542,7 @@
     <div class="footer-container">
       <ul class="footer-list">
         <li class="footer-list__item">
-          <a href="#"><img src="img/logo-yum-fm.png" alt="logo"></a>
+          <a href="http://yum-fm.ru/" target="_blank" class="footer-logo"><img src="img/logo-yum-fm.png" alt="logo"></a>
         </li>
         <li class="footer-list__item">
           <span>Следи за обновлениями на сайте</span>
@@ -324,9 +564,16 @@
 
 
   <script src="js/libs.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.2/jquery.fancybox.min.js"></script>
-  <script src="js/common.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
+  <script src="js/jquery-custom-select-master/dist/js/jquery.custom-select.min.js"></script>
+  <script src="js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js"></script>
+  <script src="https://www.youtube.com/player_api"></script>
+  <script src="js/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+  <script src="js/form/dist/jquery.form.min.js"></script>
   <script src="js/timer.js"></script>
-
+  <script src="js/custom-select.js"></script>
+  <script src="js/validate.js"></script>
+  <script src="js/videoRefactor.js"></script>
+  <script src="js/common.js"></script>
 </body>
 </html>

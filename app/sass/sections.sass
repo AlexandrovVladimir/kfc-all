@@ -9,26 +9,51 @@
 		display: flex
 		align-items: center
 		justify-content: flex-end
+		@media screen and (max-width: 767px)
+			flex-wrap: wrap
 	.header-helper
 		flex-basis: 165px
 		max-width: 165px
+		@media screen and (max-width: 767px)
+			display: none
 	.header-logo
 		padding: 3rem 0
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+			padding-top: 20px
+			text-align: center
 		img
 			width: 165px
 			height: 107px
 	.header-lines
 		img
 			transform: translateY(-50%)
+			@media screen and (max-width: 767px)
+				transform: unset
 			
 .lines
 	flex-grow: 1
 	text-align: center
 	height: 202px
+	@media screen and (max-width: 767px)
+		display: none
 	img
 		width: 278px
 		height: 202px
-
+		
+.lines-mob
+	display: none
+	flex-grow: 1
+	text-align: center
+	height: 25px
+	overflow: hidden
+	@media screen and (max-width: 767px)
+		display: block
+	img
+		width: 76px
+		height: 50px
+		
 .top
 	.top-container
 		max-width: $container-xl
@@ -46,19 +71,40 @@
 			margin: 90px 0
 		.lines
 			margin: 90px 0 60px
+		.top-lines-mob
+			margin: 50px 0 100px
+			height: 50px
 	&__text
 		font-size: 32px
 		font-family: $font-light
 		color: #010101
 		line-height: 0.811
+		@media screen and (max-width: 767px)
+			line-height: 1.3
+			font-size: 14px
 		&_bold_red
 			color: $default-red
-			font-family: $font-medium
-			font-size: 120px
-			font-weight: bold
+			font-family: $font-semi-bold
+			font-size: 100px
 			line-height: 1
-			letter-spacing: 4.7px
+			margin-top: 90px
 			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				font-size: 48px
+				margin-top: 30px
+			@media screen and (max-width: 580px)
+				font-size: 44px
+		&_big
+			color: $color-black
+			font-family: $font-regular
+			font-size: 80px
+			margin-top: 1rem
+			margin-bottom: 90px
+			line-height: 1
+			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				font-size: 30px
+				margin-bottom: 60px
 		&_date
 			font-size: 43px
 			font-family: $font-light
@@ -70,12 +116,17 @@
 			align-items: center
 			justify-content: center
 			flex-wrap: wrap
+			@media screen and (max-width: 767px)
+				font-size: 16px
 		&_separator
 			background-color: $default-red
 			display: inline-block
 			margin: 0 1rem
 			width: 3px
 			height: 39px
+			@media screen and (max-width: 767px)
+				height: 16px
+				width: 2px
 			
 .dance
 	background-color: $default-red
@@ -87,15 +138,43 @@
 		align-items: center
 		justify-content: center
 		//min-height: 757px
+		@media screen and (max-width: 1200px)
+			height: 575px
+		@media screen and (max-width: 991px)
+			height: 525px
+		@media screen and (max-width: 767px)
+			height: 300px
 	&__left
 		flex: 0 0 50%
 		max-width: 50%
 		position: relative
 		min-height: 757px
+		@media screen and (max-width: 1200px)
+			min-height: 1px
+			height: 575px
+		@media screen and (max-width: 991px)
+			height: 525px
+		@media screen and (max-width: 767px)
+			height: 300px
+		@media screen and (max-width: 700px)
+			flex: 0 0 100px
+			max-width: 100px
 		.dance-image
 			position: absolute
 			bottom: 0
 			left: -37px
+			@media screen and (max-width: 1450px) and (min-width: 1200px)
+				left: -180px
+			@media screen and (max-width: 1200px)
+				max-width: 750px
+				left: -25%
+			@media screen and (max-width: 991px)
+				left: -65%
+			@media screen and (max-width: 767px)
+				left: 0
+				max-width: 450px
+			@media screen and (max-width: 700px)
+				left: -210px
 	&__right
 		flex: 0 0 50%
 		max-width: 50%
@@ -104,6 +183,16 @@
 		display: flex
 		flex-direction: column
 		justify-content: space-between
+		@media screen and (max-width: 1200px)
+			min-height: 1px
+			height: 575px
+		@media screen and (max-width: 991px)
+			height: 525px
+		@media screen and (max-width: 767px)
+			height: 300px
+		@media screen and (max-width: 700px)
+			flex: 0 0 calc(100% - 100px)
+			max-width: calc(100% - 100px)
 	&__attention
 		font-size: 34px
 		font-family: $font-regular
@@ -111,6 +200,13 @@
 		line-height: 1
 		margin-top: 52.5px
 		text-transform: uppercase
+		@media screen and (max-width: 1200px)
+			margin-top: 1rem
+		@media screen and (max-width: 991px)
+			margin-top: 0
+		@media screen and (max-width: 767px)
+			font-size: 14px
+			font-family: $font-light
 	&__title
 		&_big
 			color: #fff
@@ -119,12 +215,20 @@
 			font-size: 140px
 			line-height: 1
 			text-transform: uppercase
+			@media screen and (max-width: 1200px)
+				font-size: 110px
+			@media screen and (max-width: 767px)
+				font-size: 40px
 		&_normal
 			color: #fff
 			display: block
 			font-family: $font-regular
 			font-size: 54px
 			text-transform: uppercase
+			@media screen and (max-width: 991px)
+				font-size: 45px
+			@media screen and (max-width: 767px)
+				font-size: 14px
 	&__text
 		&_mini
 			color: #fff
@@ -132,11 +236,24 @@
 			font-family: $font-regular
 			font-size: 20px
 			margin-bottom: 1rem
+			@media screen and (max-width: 991px)
+				margin-bottom: 0
+				font-size: 16px
+			@media screen and (max-width: 767px)
+				font-size: 14px
 
 .information
 	padding-top: 130px
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active)
+		overflow: hidden
+	@media screen and (max-width: 767px)
+		padding-top: 40px
+		.container
+			width: 100%
 	&-second
 		padding-top: 100px
+		@media screen and (max-width: 767px)
+			padding-top: 0
 	.information-lines
 		&_rotate
 			position: absolute
@@ -144,12 +261,29 @@
 			right: 0
 			transform: rotate(90deg) translateX(-50%)
 			width: 202px
+			@media screen and (max-width: 991px)
+				display: none
+	.information-lines-mob
+		margin-top: 40px
+		height: 50px
+		&_rotate
+			margin-top: 0
+			position: absolute
+			top: 100px
+			right: -13px
+			transform: rotate(90deg)
+			width: 76px
+			height: 50px
 	.information-face
 		//width: 447px
 		//height: 820px
 		position: absolute
 		bottom: 0
 		left: -7.5%
+		@media screen and (max-width: 1450px)
+			left: -220px
+		@media screen and (max-width: 1199px)
+			display: none
 	.information-container
 		max-width: $container-xl
 		margin: auto
@@ -161,6 +295,11 @@
 				margin: 0 auto 60px
 				max-width: 90%
 				padding-left: 90px
+				@media screen and (max-width: 767px)
+					-webkit-background-size: 11px
+					background-size: 11px
+					margin-bottom: 1rem
+					padding-left: 25px
 				&_normal
 					display: block
 					font-size: 30px
@@ -168,6 +307,8 @@
 					//letter-spacing: 5px
 					line-height: 1.5
 					color: $color-black
+					@media screen and (max-width: 767px)
+						font-size: 14px
 				&_big
 					display: block
 					font-size: 45px
@@ -177,6 +318,10 @@
 					line-height: 1.5
 					margin-top: 1.5rem
 					text-transform: uppercase
+					@media screen and (max-width: 767px)
+						font-size: 16px
+						letter-spacing: 5px
+						margin-top: 0.5rem
 			&:last-child
 				.information-text
 					background: none
@@ -187,9 +332,14 @@
 		color: $color-black
 		margin-bottom: 0
 		text-align: center
+		@media screen and (max-width: 767px)
+			font-size: 14px
 		&:nth-of-type(1)
 			margin-top: 100px
+			@media screen and (max-width: 767px)
+				margin-top: 40px
 	.information-stars
+		padding: 0 1rem
 		&__text
 			color: $default-red
 			font-family: $font-regular
@@ -198,28 +348,63 @@
 			margin: 50px auto
 			text-align: center
 			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				font-size: 20px
+				margin: 20px auto
+				max-width: 100%
 		.stars
 			text-align: center
-			img
+			img, svg
 				margin: 0 1rem
+				width: 28px
+				height: 28px
+				@media screen and (max-width: 767px)
+					margin: 0 0.5rem
+					width: 20px
+					height: 20px
 
 .video
 	padding: 70px 1rem
+	@media screen and (max-width: 767px)
+		padding: 20px 1rem
 	.video-container
 		max-width: $container-xl
 		margin: auto
 		padding: 0 1rem
 		display: flex
 		flex-direction: column
+		@media screen and (max-width: 767px)
+			padding: 0
 	.video-lines
 		height: 144px
 		overflow: hidden
 	.video-item
 		margin-top: 50px
+		position: relative
+		@media screen and (max-width: 767px)
+			margin-top: 20px
 		.embed-responsive
 			max-width: 992px
-			//height: 650px
+			//height: 665px
 			margin: auto
+		.js-videoIframe
+			border: 1px solid #ccc
+			position: absolute
+			left: 0
+			right: 0
+			bottom: 0
+			top: 0
+			.video-button
+				background-color: transparent
+				cursor: pointer
+				max-width: 100px
+				position: absolute
+				left: 50%
+				top: 50%
+				transform: translate(-50%, -50%)
+				svg
+					width: 100%
+					opacity: 0.6
 	&__title
 		text-align: center
 		&_big
@@ -227,19 +412,28 @@
 			font-family: $font-regular
 			font-size: 40px
 			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				font-size: 20px
 		&_normal
 			color: $color-black
 			font-family: $font-regular
 			font-size: 30px
+			@media screen and (max-width: 767px)
+				font-size: 14px
 			&_red
 				font-family: $font-regular
 				font-size: 30px
 				color: $default-red
 				letter-spacing: 5px
+				@media screen and (max-width: 767px)
+					font-size: 14px
 
 .mentors
 	background-color: $default-red
 	padding-bottom: 47px
+	@media screen and (max-width: 767px)
+		background-color: #fff
+		padding-bottom: 0
 	.mentors-container
 		max-width: 1350px
 		margin: auto
@@ -254,20 +448,76 @@
 		text-align: center
 		text-transform: uppercase
 		width: 100%
+		@media screen and (max-width: 767px)
+			color: $default-red
+			font-size: 30px
+			margin: 35px 0
 	.mentors-list
-		display: flex
-		align-items: center
-		flex-wrap: wrap
-		justify-content: space-between
 		width: 100%
+		display: flex
+		margin: auto
+		@media screen and (max-width: 1199px) and (min-width: 768px)
+			width: 80%
+			margin: auto
+		.slick-initialized .slick-slide
+			@media screen and (max-width: 1199px)
+				max-width: 192px
+				margin: auto
+		.slick-list
+			flex: 0 0 100%
+			max-width: 100%
+		.slick-next
+			right: -1rem
+			width: 20px
+			height: 20px
+			background: url('../img/arrow-point-to-right.svg') no-repeat center
+			-webkit-background-size: 100%
+			background-size: 100%
+			@media screen and (max-width: 1199px) and (min-width: 768px)
+				right: -1rem
+				top: 40%
+				z-index: 3
+			@media screen and (max-width: 767px)
+				right: 1rem
+				top: 40%
+				z-index: 3
+			img
+				width: 20px
+		.slick-prev
+			left: -1rem
+			width: 20px
+			height: 20px
+			background: url('../img/arrow-point-to-right.svg') no-repeat center
+			-webkit-background-size: 100%
+			background-size: 100%
+			transform: rotate(180deg)
+			@media screen and (max-width: 1199px) and (min-width: 768px)
+				left: -1rem
+				top: 40%
+				z-index: 3
+			@media screen and (max-width: 767px)
+				left: 1rem
+				top: 40%
+				z-index: 3
+			img
+				width: 20px
+		&__item
+			padding: 0 0.5rem
 		&__image
 			cursor: pointer
 			-webkit-border-radius: 50%
 			-moz-border-radius: 50%
 			border-radius: 50%
-			transition: all 0.3s ease-in-out
-			&:hover
-				box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.3)
+			img
+				margin: auto
+				-webkit-border-radius: 50%
+				-moz-border-radius: 50%
+				border-radius: 50%
+				transition: all 0.3s ease-in-out
+				&:hover
+					box-shadow: 0px 18px 18px 0px rgba(0, 0, 0, 0.3)
+					@media screen and (max-width: 1199px)
+						box-shadow: unset
 		&__name
 			color: #fff
 			font-family: $font-medium
@@ -275,21 +525,47 @@
 			margin-top: 1.25rem
 			text-align: center
 			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				color: $color-black
 		&__label
 			color: #fff
-			font-family: $font-medium
-			font-size: 22px
-			letter-spacing: 2px
+			font-family: $font-light
+			font-size: 24px
+			letter-spacing: 5px
 			line-height: 1
 			margin-top: 60px
 			opacity: 0.4
+			text-shadow: 0 -1px rgba(0,0,0,.1)
+			-webkit-animation: pulsate 2s linear infinite
+			animation: pulsate 2s linear infinite
+			@media screen and (max-width: 767px)
+				color: #000
+				margin-top: 20px
+				opacity: 1
+				font-size: 11px
+				animation: pulsate-mob 2s linear infinite
+		@keyframes pulsate
+			50%
+				color: #fff
+				text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ffd, 0 0 8px #fff
+				opacity: 1
+		@keyframes pulsate-mob
+			50%
+				color: #000
+				text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #000, 0 0 8px #000
+				opacity: 1
 		.mentors-list-inside
-			display: none
-
+			margin-top: 1rem
+			
 .mentors-data
 	&-wrapper
 		width: 1015px !important
 		padding: 100px !important
+		margin: auto !important
+		transition: all 1.2s linear
+		opacity: 0
+		@media screen and (max-width: 767px)
+			padding: 1rem !important
 		.fancybox-close-small
 			color: #000 !important
 			opacity: 1 !important
@@ -298,6 +574,8 @@
 		font-size: 50px
 		font-family: $font-medium
 		text-transform: uppercase
+		@media screen and (max-width: 767px)
+			font-size: 18px
 	&__description
 		margin-top: 30px
 		li
@@ -306,18 +584,28 @@
 			font-size: 20px
 			font-family: $font-light
 			padding-left: 25px
+			@media screen and (max-width: 767px)
+				font-size: 14px
 		img
 			margin-right: 1rem
 
 .talent
+	.talent-lines-mob
+		margin-top: 50px
 	.talent-lines
 		margin-top: 70px
 		margin-bottom: 20px
 		height: 144px
 		overflow: hidden
+		@media screen and (max-width: 767px)
+			margin-top: 0
 		&:last-child
 			margin-top: 150px
 			margin-bottom: 0
+			@media screen and (max-width: 767px)
+				margin-top: 50px
+	.talent-lines-last
+		margin-bottom: 0
 	.talent-container
 		max-width: $container-xl
 		margin: auto
@@ -331,6 +619,9 @@
 		text-transform: uppercase
 		position: relative
 		z-index: 2
+		@media screen and (max-width: 767px)
+			font-size: 30px
+			text-align: left
 	.talent-wrapper
 		display: flex
 		justify-content: space-between
@@ -340,23 +631,41 @@
 		max-width: 50%
 		position: relative
 		min-height: 850px
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+			min-height: 350px
+			display: none
 		img
 			position: absolute
 			left: 10%
-			//top: 2.5%
 			top: 50%
 			transform: translateY(-50%)
 			z-index: 1
+			@media screen and (max-width: 1450px)
+				left: 0
+			@media screen and (max-width: 992px)
+				max-width: 750px
+				left: -25%
+			@media screen and (max-width: 767px)
+				position: static
+				transform: unset
 	&__right
 		flex: 0 0 50%
 		max-width: 50%
 		min-height: 850px
 		position: relative
 		z-index: 2
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+			min-height: 350px
 	&__date
 		color: #aaaaaa
 		font-family: $font-regular
 		font-size: 20px
+		@media screen and (max-width: 767px)
+			font-size: 14px
 	&__title_red
 		color: $default-red
 		font-family: $font-regular
@@ -365,17 +674,34 @@
 		margin: 50px 0
 		max-width: 80%
 		text-transform: uppercase
+		@media screen and (max-width: 1450px)
+			font-size: 50px
+			max-width: 100%
+		@media screen and (max-width: 991px)
+			font-size: 40px
+		@media screen and (max-width: 767px)
+			font-size: 20px
+			margin: 20px 0
 	&__text
 		color: $color-black
 		font-family: $font-regular
 		font-size: 30px
 		margin-bottom: 50px
 		max-width: 68%
+		@media screen and (max-width: 1450px)
+			max-width: 100%
+		@media screen and (max-width: 767px)
+			font-size: 20px
+			margin-bottom: 1rem
+		@media screen and (max-width: 580px)
+			font-size: 18px
 	&__text_light
 		color: rgb(103, 103, 103)
 		font-family: $font-light
 		font-size: 20px
 		margin-bottom: 1rem
+		@media screen and (max-width: 767px)
+			font-size: 16px
 	.talent-list
 		&__item
 			background: url('../img/ellipse-mini.png') no-repeat 0 12.5px
@@ -393,16 +719,60 @@
 		margin-top: 50px
 		padding: 1rem 3rem
 		text-transform: uppercase
+		@media screen and (max-width: 767px)
+			font-size: 14px
+			margin-top: 20px
+			margin-left: 50%
+			transform: translateX(-50%)
+			padding: 0.5rem 2.5rem
+		@media screen and (max-width: 767px)
+			margin-left: calc(50% - 85px)
+			transform: unset
 		&:hover
 			box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3)
 			text-decoration: none
 		
 .feedback
 	background-color: #f7f7f7
+	position: relative
+	&:after
+		content: ''
+		clear: both
+		display: table
+	&__absolute
+		position: absolute
+		&_right
+			right: 0
+			top: 50%
+			transform: translateY(-50%)
+			max-width: 350px
+			@media screen and (max-width: 767px)
+				display: none
+		&_left
+			left: -600px
+			bottom: -100px
+			@media screen and (max-width: 767px)
+				display: none
+	.feedback-lines-mob
+		margin-bottom: 50px
+		height: 25px
+		&:last-child
+			margin-top: 50px
+			margin-bottom: 0
 	.feedback-lines
-		margin-bottom: 100px
 		height: 144px
 		overflow: hidden
+		&:first-child
+			margin-bottom: 100px
+			@media screen and (max-width: 767px)
+				margin-bottom: 50px
+		&:last-child
+			margin-top: 180px
+			@media screen and (max-width: 767px)
+				margin-top: 50px
+				margin-bottom: 0
+	.feedback-lines-last
+		margin-top: 180px
 	.feedback-container
 		max-width: $container-xl
 		margin: auto
@@ -415,10 +785,275 @@
 		margin: auto
 		text-align: center
 		text-transform: uppercase
+		@media screen and (max-width: 767px)
+			font-size: 20px
+	.feedback-casting
+		font-family: $font-regular
+		font-size: 30px
+		margin-top: 90px
+		position: relative
+		text-align: center
+		@media screen and (max-width: 767px)
+			margin-top: 50px
+		&__title
+			font-family: $font-regular
+			@media screen and (max-width: 767px)
+				font-size: 14px
+		.feedback-casting-form
+			margin-top: 45px
+			@media screen and (max-width: 767px)
+				margin-top: 20px
+			.col-12
+				position: relative
+				//z-index: 2
+				@media screen and (max-width: 991px)
+					flex: 0 0 50%
+					max-width: 50%
+				@media screen and (max-width: 767px)
+					flex: 0 0 100%
+					max-width: 100%
+			&-wrap
+				width: 100%
+				margin-bottom: 1rem
+				&.license
+					margin-bottom: 0
+					padding-top: 36px
+					padding-left: 1rem
+					//@media screen and (max-width: 991px) and (min-width: 768px)
+					//	padding-left: 0
+					//	padding-top: 26px
+					@media screen and (max-width: 767px)
+						padding-left: 100px
+					@media screen and (max-width: 580px)
+						padding-left: 0
+				span
+					display: block
+			&__name
+				color: $color-black
+				font-family: $font-regular
+				font-size: 14px
+				margin-bottom: 0.5rem
+				text-transform: uppercase
+			&__input
+				border: 1px solid #c3c3c3
+				-webkit-border-radius: 10px
+				-moz-border-radius: 10px
+				border-radius: 10px
+				color: $color-black
+				font-family: $font-regular
+				font-size: 14px
+				padding: 0 1rem
+				height: 60px
+				width: 100%
+				text-align: center
+			&__row
+				display: flex
+				align-items: center
+				justify-content: flex-start
+				flex-wrap: wrap
+				text-align: left
+				@media screen and (max-width: 991px) and (min-width: 768px)
+					display: flex
+					flex-wrap: nowrap
+				input
+					display: none
+					margin-right: 1rem
+				.checkmark
+					border: 1px solid #000
+					-webkit-border-radius: 50%
+					-moz-border-radius: 50%
+					border-radius: 50%
+					display: inline-block
+					margin-right: 0.5rem
+					width: 10px
+					height: 10px
+					position: relative
+					&:after
+						content: ''
+						background: none
+						width: 15px
+						height: 15px
+						position: absolute
+						left: 0
+						top: 0
+				input:checked ~ .checkmark:after
+					content: ''
+					background: url('../img/tick.png') no-repeat 1px -1.5px
+			&__license
+				color: $color-black
+				font-family: $font-regular
+				font-size: 14px
+				@media screen and (max-width: 1199px)
+					font-size: 12px
+				a
+					color: $color-black
+					text-decoration: underline
+					@media screen and (max-width: 991px) and (min-width: 768px)
+						width: 100%
+			&__download
+				flex: 0 0 100%
+				max-width: 100%
+				position: relative
+				z-index: 1
+				&_input
+					position: absolute
+					display: none
+			&__button
+				background-color: $default-red
+				-webkit-border-radius: 50px
+				-moz-border-radius: 50px
+				border: 1px solid $default-red
+				border-radius: 50px
+				cursor: pointer
+				display: flex
+				align-items: center
+				justify-content: center
+				flex-wrap: wrap
+				max-width: 350px
+				margin: 50px auto 0
+				padding: 1.5rem 60px
+				transition: all 0.3s ease-in-out
+				@media screen and (max-width: 767px)
+					padding: 0.5rem 1rem
+					max-width: 225px
+				&_disable
+					background-color: darken(#ededed, 10%)
+					cursor: unset
+					&:hover, &:focus
+						outline: none
+						box-shadow: none !important
+				&:hover, &:focus
+					outline: none
+					box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3)
+				img
+					margin-right: 1rem
+				span
+					color: #fff
+					display: block
+					font-family: $font-regular
+					font-size: 20px
+					pointer-events: none
+					text-align: center
+					text-transform: uppercase
+					@media screen and (max-width: 767px)
+						font-size: 14px
+			&__message
+				color: red
+			&-success
+				height: 550px
+				display: flex
+				align-items: center
+				justify-content: center
+				flex-wrap: wrap
+				&-row
+					height: 550px
+					display: none
+.feedback-casting-form-progress
+	&__line
+		background-color: $default-red
+		-webkit-border-radius: 6px
+		-moz-border-radius: 6px
+		border-radius: 6px
+		height: 6px
+		max-width: 550px
+		margin: 25px auto
 		
 		
+.faq
+	padding-bottom: 70px
+	position: relative
+	.container
+		@media screen and (max-width: 767px)
+			width: 100%
+	.faq-lines
+		height: 144px
+		overflow: hidden
+	.faq-lines-mob
+		margin-bottom: 50px
+		height: 25px
+	.faq-container
+		max-width: $container-xl
+		margin: auto
+		padding: 0 1rem
+	&_absolute
+		position: absolute
+		right: 0
+		top: -100px
+	&__title
+		color: #292929
+		font-family: $font-medium
+		font-size: 110px
+		line-height: 1
+		margin-bottom: 60px
+		text-transform: uppercase
+		@media screen and (max-width: 767px)
+			font-size: 40px
+			margin-bottom: 20px
+	.faq-list
+		&__item
+			cursor: pointer
+			position: relative
+			width: 100%
+			z-index: 2
+			.faq-list-wrapper-request
+				color: #747474
+				font-size: 16px
+				font-family: $font-regular
+				text-transform: uppercase
+				display: none
+				padding: 1rem 0
+				@media screen and (max-width: 767px)
+					font-size: 12px
+			.faq-list-wrapper
+				border-bottom: 1px solid rgba(56, 56, 56, 0.122)
+				position: relative
+				padding: 20px 0
+				@media screen and (max-width: 767px)
+					padding: 10px 0
+				&:before
+					content: ''
+					background: $default-red
+					position: absolute
+					display: block
+					height: 10px
+					width: 2px
+					right: 4px
+					top: 50%
+					transform: translateY(-50%)
+					transition: all 0.3s linear
+				&:after
+					content: ''
+					background: $default-red
+					position: absolute
+					display: block
+					height: 2px
+					width: 10px
+					right: 0
+					top: 50%
+					transform: translateY(-50%)
+				&.active
+					&:before
+						opacity: 0
+				span
+					color: #747474
+					font-size: 18px
+					font-family: $font-regular
+					text-transform: uppercase
+					@media screen and (max-width: 767px)
+						font-size: 12px
+						display: inline-block
+						padding-right: 25px
+		&__icon
+			position: absolute
+			top: 50%
+			right: 1rem
+			-webkit-transform: translateY(-50%)
+			-moz-transform: translateY(-50%)
+			-ms-transform: translateY(-50%)
+			-o-transform: translateY(-50%)
+			transform: translateY(-50%)
 		
-		
+
 .footer
 	background-color: #292929
 	padding: 1rem
@@ -462,3 +1097,29 @@
 					text-decoration: none
 			span
 				display: block
+				
+.girl-mobile
+	display: none
+	overflow: hidden
+	@media screen and (max-width: 767px)
+		display: block
+		text-align: center
+		&__image
+			max-width: 425px
+			position: absolute
+			left: 50%
+			top: 75px
+			transform: translateX(-50%)
+	@media screen and (max-width: 580px)
+		&__image
+			left: 0
+			transform: translateX(0)
+	.girl-mobile-container
+		padding: 0 1rem
+		position: relative
+		min-height: 565px
+	.girl-mobile-lines-mob
+		position: static
+		margin-top: 50px
+		margin-bottom: 25px
+		height: 50px
