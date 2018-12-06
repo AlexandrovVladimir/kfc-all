@@ -280,6 +280,8 @@
 		position: absolute
 		bottom: 0
 		left: -7.5%
+		@media screen and (max-width: 1550px)
+			display: none
 		@media screen and (max-width: 1450px)
 			left: -220px
 		@media screen and (max-width: 1199px)
@@ -562,7 +564,9 @@
 		width: 1015px !important
 		padding: 100px !important
 		margin: auto !important
-		transition: all 1.2s linear
+		top: 50%
+		transform: translateY(-50%)
+		transition: all 1s linear
 		opacity: 0
 		@media screen and (max-width: 767px)
 			padding: 1rem !important
@@ -949,6 +953,8 @@
 					height: 550px
 					display: none
 .feedback-casting-form-progress
+	max-width: 550px
+	margin: 0 auto
 	&__line
 		background-color: $default-red
 		-webkit-border-radius: 6px

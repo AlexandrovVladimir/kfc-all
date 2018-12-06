@@ -111,8 +111,8 @@
             </li>
             <li class="information-list__item">
               <div class="information-text">
-                <span class="information-text_normal">1-й этап – отбор полуфиналистов<br>2 этап – суперфинал</span>
-                <span class="information-text_big">учавствуют только<br>танцоры!</span>
+                <span class="information-text_normal">1 этап – отбор полуфиналистов<br>2 этап – суперфинал</span>
+                <span class="information-text_big">участвуют только<br>танцоры!</span>
               </div>
             </li>
             <li class="information-list__item">
@@ -255,7 +255,7 @@
         </li>
         <li class="mentors-list__item">
           <div class="mentors-list__image">
-            <img src="img/img5.png" alt="mentor"  data-src="#hidden-content5">
+            <img src="img/img5.png" alt="mentor" data-src="#hidden-content5">
           </div>
           <div class="mentors-list__name">Анжела Чашина</div>
           <div id="hidden-content5" style="display: none; opacity: 0;" class="mentors-data-wrapper">
@@ -364,14 +364,19 @@
                 </label>
                 <label class="feedback-casting-form-wrap" for="req4">
                   <span class="feedback-casting-form__name">Ресторан</span>
-                  <select id="req4" class="feedback-casting-form__select feedback-casting-form__select_restorants validation-input" name="restoran" style="opacity: 0;">
-                    <!--<option selected value="Название ресторана">Название ресторана</option>-->
-                    <option value="1">Южный</option>
-                    <option value="2">Северный</option>
-                    <option value="3">Западный</option>
-                    <option value="4">Восточный</option>
-                  </select>
+                  <input type="text" id="req4" class="feedback-casting-form__input validation-input" name="restoran" placeholder="Ресторан">
+
+                  <!--<select id="req4" class="feedback-casting-form__select feedback-casting-form__select_restorants validation-input" name="restoran" style="opacity: 0;">-->
+                    <!--&lt;!&ndash;<option selected value="Название ресторана">Название ресторана</option>&ndash;&gt;-->
+                    <!--<option value="1">Южный</option>-->
+                    <!--<option value="2">Северный</option>-->
+                    <!--<option value="3">Западный</option>-->
+                    <!--<option value="4">Восточный</option>-->
+                  <!--</select>-->
                 </label>
+                <input type="hidden" name="action" value="request_start">
+                <input type="hidden" name="captcha" id="captcha_request_start">
+                <input type="hidden" name="video_link" id="video_link">
               </div>
               <div class="col-12 col-sm-4">
                 <label class="feedback-casting-form-wrap" for="req5">
@@ -487,7 +492,7 @@
                 <span>1. ПОЧЕМУ ДЛЯ ШОУ 2019 ВЫБРАН ФОРМАТ ТАНЦЕВАЛЬНОГО БАТТЛА?</span>
               </div>
               <div class="faq-list-wrapper-request">
-                – Это зрелищный и самый трендовый формат шоу последних лет. Танцы объединят участников из разных стран. А кроме того – такого мы еще не делали!
+                Это зрелищный и самый трендовый формат шоу последних лет. Танцы объединят участников из разных стран. А кроме того – такого мы еще не делали!
               </div>
             </li>
             <li class="faq-list__item">
@@ -495,7 +500,7 @@
                 <span>2. ЭТО ЗНАЧИТ, ЧТО В ШОУ СМОГУТ ПРИНЯТЬ УЧАСТИЕ ТОЛЬКО ТАНЦОРЫ?</span>
               </div>
               <div class="faq-list-wrapper-request">
-                - Да, в этот раз мы ищем для шоу танцующих работников компании,
+                Да, в этот раз мы ищем для шоу танцующих работников компании,
                 в кастинге наравне с работниками ресторанов могут принять участие и работники
                 московского центра поддержки.
               </div>
@@ -505,7 +510,7 @@
                 <span>3.  А КАК ЖЕ ВОКАЛИСТЫ? ОНИ НЕ СМОГУТ ПОПАСТЬ НА КОНФЕРЕНЦИЮ?</span>
               </div>
               <div class="faq-list-wrapper-request">
-                - Конечно, смогут! Специально для них мы организуем конкурс «10 лучших голосов KFC» и отдельный вокальный кастинг, который стартует сразу по окончанию танцевального.
+                Конечно, смогут! Специально для них мы организуем конкурс «10 лучших голосов KFC» и отдельный вокальный кастинг, который стартует сразу по окончанию танцевального.
               </div>
             </li>
             <li class="faq-list__item">
@@ -513,7 +518,7 @@
                 <span>4. СКОЛЬКО ВСЕГО СОТРУДНИКОВ ПРИМЕТ УЧАСТИЕ В ШОУ 2019? </span>
               </div>
               <div class="faq-list-wrapper-request">
-                - 100-130 танцоров из России, СНГ, Западной и Восточной Европы по итогам кастинга. Плюс 10 вокалистов, которые выступят с отдельным шоу-номером вне конкурса.
+                100-130 танцоров из России, СНГ, Западной и Восточной Европы по итогам кастинга. Плюс 10 вокалистов, которые выступят с отдельным шоу-номером вне конкурса.
               </div>
             </li>
             <li class="faq-list__item">
@@ -521,7 +526,7 @@
                 <span>5. А БУДЕТ ЛИ В ЭТОМ ГОДУ ОНЛАЙН-ГОЛОСОВАНИЕ ЗА ПОБЕДИТЕЛЕЙ ШОУ?</span>
               </div>
               <div class="faq-list-wrapper-request">
-                - Обязательно! Смотрите прямую трансляцию Конференции 21 февраля 2019 года на сайте yum-fm.ru  и голосуйте – только от вас будет зависеть какая из 5-ти танцевальных команд станет победителем танцевального баттла!
+                Обязательно! Смотрите прямую трансляцию Конференции 21 февраля 2019 года на сайте yum-fm.ru  и голосуйте – только от вас будет зависеть какая из 5-ти танцевальных команд станет победителем танцевального баттла!
               </div>
             </li>
             <li class="faq-list__item">
@@ -529,7 +534,7 @@
                 <span>6. ВО СКОЛЬКО НАЧНЕТСЯ ПРЯМАЯ ТРАНСЛЯЦИЯ?</span>
               </div>
               <div class="faq-list-wrapper-request">
-                - Ровно в 16.30 по московскому времени. Кстати, в этот раз у всей онлайн-аудитории будет уникальная возможность наблюдать за мероприятием с нескольких ракурсов, самостоятельно переключаясь на разные камеры в зале и даже за кулисами!
+                Ровно в 16.30 по московскому времени. Кстати, в этот раз у всей онлайн-аудитории будет уникальная возможность наблюдать за мероприятием с нескольких ракурсов, самостоятельно переключаясь на разные камеры в зале и даже за кулисами!
               </div>
             </li>
           </ul>
@@ -546,7 +551,7 @@
         </li>
         <li class="footer-list__item">
           <span>Следи за обновлениями на сайте</span>
-          <span>Слушай радиоэфиры YUM.FM</span>
+          <a href="http://yum-fm.ru/" target="_blank">Слушай радиоэфиры YUM.FM</a>
           <span>Дополнительные вопросы отправляй на почту Orgteam</span>
           <div><a href="mailto: Alyona.Klyuchareva@yum.com">Alyona.Klyuchareva@yum.com</a></div>
           <div><a href="mailto: Elena.Yakubova@yum.com">Elena.Yakubova@yum.com</a></div>
@@ -572,6 +577,7 @@
   <script src="js/form/dist/jquery.form.min.js"></script>
   <script src="js/timer.js"></script>
   <script src="js/custom-select.js"></script>
+  <!--<script src="js/validate-old.js"></script>-->
   <script src="js/validate.js"></script>
   <script src="js/videoRefactor.js"></script>
   <script src="js/common.js"></script>
