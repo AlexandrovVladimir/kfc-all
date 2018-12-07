@@ -250,7 +250,7 @@
     @media screen and (max-width: 767px) {
       .dance__left {
         height: 300px; } }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 650px) {
       .dance__left {
         -webkit-box-flex: 0;
             -ms-flex: 0 0 100px;
@@ -274,7 +274,7 @@
         .dance__left .dance-image {
           left: 0;
           max-width: 450px; } }
-      @media screen and (max-width: 700px) {
+      @media screen and (max-width: 650px) {
         .dance__left .dance-image {
           left: -210px; } }
   .dance__right {
@@ -304,15 +304,15 @@
     @media screen and (max-width: 767px) {
       .dance__right {
         height: 300px; } }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 650px) {
       .dance__right {
         -webkit-box-flex: 0;
             -ms-flex: 0 0 calc(100% - 100px);
                 flex: 0 0 calc(100% - 100px);
         max-width: calc(100% - 100px); } }
   .dance__attention {
-    font-size: 34px;
-    font-family: "Oswald-Regular", sans-serif;
+    font-size: 30px;
+    font-family: "Oswald-Light", sans-serif;
     color: #fff;
     line-height: 1;
     margin-top: 52.5px;
@@ -330,8 +330,8 @@
   .dance__title_big {
     color: #fff;
     display: block;
-    font-family: "Oswald-Medium", sans-serif;
-    font-size: 140px;
+    font-family: "Oswald-SemiBold", sans-serif;
+    font-size: 130px;
     line-height: 1;
     text-transform: uppercase; }
     @media screen and (max-width: 1200px) {
@@ -356,7 +356,7 @@
     color: #fff;
     display: block;
     font-family: "Oswald-Regular", sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 1rem; }
     @media screen and (max-width: 991px) {
       .dance__text_mini {
@@ -409,13 +409,10 @@
     position: absolute;
     bottom: 0;
     left: -7.5%; }
-    @media screen and (max-width: 1550px) {
-      .information .information-face {
-        display: none; } }
-    @media screen and (max-width: 1450px) {
+    @media screen and (max-width: 1500px) {
       .information .information-face {
         left: -220px; } }
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 1270px) {
       .information .information-face {
         display: none; } }
   .information .information-container {
@@ -425,8 +422,11 @@
   .information .information-list__item .information-text {
     background: url("../img/ellipse.png") no-repeat 0 center;
     margin: 0 auto 60px;
-    max-width: 90%;
+    max-width: 70%;
     padding-left: 90px; }
+    @media screen and (max-width: 1199px) {
+      .information .information-list__item .information-text {
+        max-width: 90%; } }
     @media screen and (max-width: 767px) {
       .information .information-list__item .information-text {
         background-size: 11px;
@@ -446,14 +446,12 @@
       font-size: 45px;
       font-family: "Oswald-Regular", sans-serif;
       color: #ee2f2a;
-      letter-spacing: 15px;
+      letter-spacing: unset;
       line-height: 1.5;
-      margin-top: 1.5rem;
       text-transform: uppercase; }
       @media screen and (max-width: 767px) {
         .information .information-list__item .information-text_big {
           font-size: 16px;
-          letter-spacing: 5px;
           margin-top: 0.5rem; } }
   .information .information-list__item:last-child .information-text {
     background: none;
@@ -475,7 +473,7 @@
   .information .information-stars {
     padding: 0 1rem; }
     .information .information-stars__text {
-      color: #ee2f2a;
+      color: #292929;
       font-family: "Oswald-Regular", sans-serif;
       font-size: 50px;
       max-width: 80%;
@@ -571,7 +569,34 @@
         font-family: "Oswald-Regular", sans-serif;
         font-size: 30px;
         color: #ee2f2a;
-        letter-spacing: 5px; }
+        -webkit-animation: pulsate-video-text 2s linear infinite;
+        animation: pulsate-video-text 2s linear infinite; }
+        .video__title_normal_red svg {
+          width: 25px;
+          -webkit-animation: pulsate-arrow 1s linear infinite;
+          animation: pulsate-arrow 1s linear infinite; }
+
+@-webkit-keyframes pulsate-video-text {
+  50% {
+    color: #333;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ccc, 0 0 8px #ccc;
+    opacity: 1; } }
+
+@keyframes pulsate-video-text {
+  50% {
+    color: #333;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #ccc, 0 0 8px #ccc;
+    opacity: 1; } }
+
+@-webkit-keyframes pulsate-arrow {
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px); } }
+
+@keyframes pulsate-arrow {
+  50% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px); } }
         @media screen and (max-width: 767px) {
           .video__title_normal_red {
             font-size: 14px; } }
@@ -990,6 +1015,9 @@
     .feedback__absolute_left {
       left: -600px;
       bottom: -100px; }
+      @media screen and (max-width: 860px) {
+        .feedback__absolute_left {
+          left: -700px; } }
       @media screen and (max-width: 767px) {
         .feedback__absolute_left {
           display: none; } }
@@ -1049,6 +1077,21 @@
       @media screen and (max-width: 767px) {
         .feedback .feedback-casting .feedback-casting-form {
           margin-top: 20px; } }
+      .feedback .feedback-casting .feedback-casting-form-attention {
+        color: #ee2f2a;
+        font-size: 14px;
+        font-family: "Oswald-Regular", sans-serif;
+        margin-top: 50px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center; }
+        @media screen and (max-width: 767px) {
+          .feedback .feedback-casting .feedback-casting-form-attention {
+            font-size: 12px;
+            margin-top: 35px;
+            text-align: center; } }
       .feedback .feedback-casting .feedback-casting-form .col-12 {
         position: relative; }
         @media screen and (max-width: 991px) {
@@ -1178,7 +1221,7 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         max-width: 350px;
-        margin: 50px auto 0;
+        margin: 0 auto;
         padding: 1.5rem 60px;
         -webkit-transition: all 0.3s ease-in-out;
         -o-transition: all 0.3s ease-in-out;
@@ -1666,6 +1709,74 @@ section {
     display: none; }
 
 /*/slick default*/
+/*bs modals*/
+.modal-dialog {
+  max-width: 767px;
+  margin-top: 150px;
+  margin-bottom: 0; }
+  @media screen and (max-width: 1550px) {
+    .modal-dialog {
+      margin-top: 30px; } }
+  @media screen and (max-width: 800px) {
+    .modal-dialog {
+      max-width: 80%; } }
+  @media screen and (max-width: 580px) {
+    .modal-dialog {
+      max-width: 95%; } }
+
+.modal-header {
+  color: #666;
+  font-family: "Oswald-Regular", sans-serif;
+  font-size: 18px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media screen and (max-width: 767px) {
+    .modal-header {
+      font-size: 16px; } }
+
+.modal-body {
+  color: #666;
+  font-family: "Oswald-Light", sans-serif;
+  font-size: 16px; }
+  @media screen and (max-width: 767px) {
+    .modal-body {
+      font-size: 14px; } }
+  .modal-body p {
+    margin-bottom: 2rem; }
+    .modal-body p.attention {
+      color: #ee2f2a;
+      font-family: "Oswald-Regular", sans-serif; }
+    @media screen and (max-width: 767px) {
+      .modal-body p {
+        margin-bottom: 2rem; } }
+
+.modal-content {
+  border-radius: 0; }
+
+.modal-footer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .modal-footer .btn {
+    background-color: #ee2f2a;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: "Oswald-Regular", sans-serif;
+    font-size: 18px;
+    display: inline-block;
+    padding: 0.5rem 3rem; }
+    .modal-footer .btn:hover {
+      -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+              box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3);
+      text-decoration: none; }
+    @media screen and (max-width: 767px) {
+      .modal-footer .btn {
+        font-size: 14px; } }
+
+/*/bs modals*/
 .fancybox-slide {
   height: auto !important;
   top: 50% !important;

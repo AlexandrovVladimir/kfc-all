@@ -108,6 +108,60 @@ section
     display: none
 /*/slick default*/
 
+/*bs modals*/
+.modal-dialog
+  max-width: 767px
+  margin-top: 150px
+  margin-bottom: 0
+  @media screen and (max-width: 1550px)
+    margin-top: 30px
+  @media screen and (max-width: 800px)
+    max-width: 80%
+  @media screen and (max-width: 580px)
+    max-width: 95%
+.modal-header
+  color: #666
+  font-family: $font-regular
+  font-size: 18px
+  justify-content: center
+  @media screen and (max-width: 767px)
+    font-size: 16px
+.modal-body
+  color: #666
+  font-family: $font-light
+  font-size: 16px
+  @media screen and (max-width: 767px)
+    font-size: 14px
+  p
+    margin-bottom: 2rem
+    &.attention
+      color: $default-red
+      font-family: $font-regular
+    @media screen and (max-width: 767px)
+      margin-bottom: 2rem
+.modal-content
+  -webkit-border-radius: 0
+  -moz-border-radius: 0
+  border-radius: 0
+.modal-footer
+  justify-content: center
+  .btn
+    background-color: #ee2f2a
+    border-radius: 30px
+    border: none
+    color: #fff
+    cursor: pointer
+    font-family: $font-regular
+    font-size: 18px
+    display: inline-block
+    padding: 0.5rem 3rem
+    &:hover
+      box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3)
+      text-decoration: none
+    @media screen and (max-width: 767px)
+      font-size: 14px
+/*/bs modals*/
+
 .fancybox-slide
   height: auto !important
   top: 50% !important

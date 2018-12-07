@@ -15,11 +15,12 @@ function changeForm(form, button){
 function checkedForm(form) {
   let count = 0;
 
-  $(form).find('input').each(function(){
-    if($(this).attr('id') !== 'req10'){
-      if($(this).val().length > 2){
+  $(form).find('input').each(function() {
+    if($(this).attr('id') !== 'req10') {
+      if ($(this).val().length > 2){
         count++;
       }
+
     }
   });
 
@@ -43,8 +44,6 @@ function checkedForm(form) {
     // console.log(count);
   }
 
-  // console.log(count);
-
   return count;
 }
 changeForm('.feedback-casting-form', '.feedback-casting-form__button');
@@ -64,6 +63,33 @@ function checkPhoneMask(input){
   }
 }
 checkPhoneMask('.feedback-casting-form__input_telephone');
+
+
+/*form prompt opener*/
+function formPromptOpener(button, form){
+  jQuery(button).on('click', function(e){
+    let getPromptId = jQuery(this).attr('href'),
+        getInputId = jQuery(this).attr('data-input-id');
+
+    jQuery(getPromptId).css({'z-index': 3, 'opacity': 1});
+    jQuery(form).css('opacity', 0);
+
+    jQuery(getPromptId).find('.site-button').on('click', function(e){
+      e.preventDefault();
+
+      jQuery(getPromptId).css({'z-index': 1, 'opacity': 0});
+      jQuery(form).css('opacity', 1);
+
+      document.getElementById(getInputId).checked = true;
+
+      if (checkedForm(form) === 9) {
+        jQuery(button).removeClass('site-button__disable');
+      }else{
+        jQuery(button).addClass('site-button__disable');
+      }
+    });
+  });
+}
 
 
 $('#req10').on('change', function(e){
@@ -103,9 +129,6 @@ $('#feedback-casting-form').submit(function(e) {
         }
       });
 });
-
-
-
 
 
 // Функция загрузки файлов

@@ -96,13 +96,13 @@ $(document).ready(function () {
       src  : $(this).attr('data-src'),
       opts : {
         afterLoad : function( instance, current ) {
-          console.log('open');
+          // console.log('open');
           setTimeout(function() {
             $('.mentors-data-wrapper').css('opacity', 1);
           }, 1);
         },
         afterClose : function() {
-          console.log('close');
+          // console.log('close');
           $('.mentors-data-wrapper').css('opacity', 0);
         }
       }

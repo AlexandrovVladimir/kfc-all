@@ -112,7 +112,7 @@
             <li class="information-list__item">
               <div class="information-text">
                 <span class="information-text_normal">1 этап – отбор полуфиналистов<br>2 этап – суперфинал</span>
-                <span class="information-text_big">участвуют только<br>танцоры!</span>
+                <span class="information-text_big">участвуют только танцоры!</span>
               </div>
             </li>
             <li class="information-list__item">
@@ -129,7 +129,7 @@
             </li>
             <li class="information-list__item">
               <div class="information-text last">
-                <span class="information-text_normal">Работники региональных ресторанов и центрального офиса примут участие в танцевальном конкурсе на общих основаниях. <br> А его победители станут равнозначными членами шоу-команд.</span>
+                <span class="information-text_normal">Работники региональных ресторанов и центрального офиса примут участие в танцевальном конкурсе на общих основаниях. А его победители станут равнозначными членами шоу-команд.</span>
               </div>
             </li>
           </ul>
@@ -165,7 +165,24 @@
       <div class="video__title">
         <div class="video__title_big">ПРИМИ УЧАСТИЕ В КАСТИНГЕ – И БУДЬ В ТАНЦАХ!</div>
         <span class="video__title_normal">Ещё сомневаешься?</span>
-        <span class="video__title_normal_red">Тогда жми на play</span>
+        <span class="video__title_normal_red">Смотри видео
+          <?xml version="1.0" encoding="utf-8"?>
+          <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+          <style type="text/css">
+              .st0{fill:#EE2F2A;}
+          </style>
+          <g>
+              <g>
+                  <path class="st0" d="M215.8,28.8L216,28v342.6L108.1,262.9c-5.3-5.3-12.4-8.2-19.9-8.2c-7.5,0-14.6,2.9-19.9,8.2l-16.8,16.8
+                      c-5.3,5.3-8.2,12.3-8.2,19.8c0,7.5,2.9,14.5,8.2,19.8l184.6,184.6c5.3,5.3,12.3,8.2,19.8,8.2c7.5,0,14.6-2.9,19.9-8.2l184.6-184.6
+                      c5.3-5.3,8.2-12.3,8.2-19.8c0-7.5-2.9-14.5-8.2-19.8l-16.8-16.8c-5.3-5.3-12.3-8.2-19.8-8.2c-7.5,0-14.1,2.9-19.4,8.2L296,371.8
+                      V28.4C296,13,282.7,0,267.2,0l-23.7,0C228.1,0,215.8,13.3,215.8,28.8z"/>
+              </g>
+          </g>
+          </svg>
+        </span>
       </div>
       <div class="video-item">
         <div class="embed-responsive embed-responsive-16by9">
@@ -339,7 +356,7 @@
     <img src="img/blurimg.png" alt="blur" class="feedback__absolute feedback__absolute_right">
     <img src="img/Bucket_01.png" alt="Bucket_01" class="feedback__absolute feedback__absolute_left">
     <div class="feedback-container">
-      <div class="feedback__title">до окончания приема заявок первого этапа осталось</div>
+      <div class="feedback__title">до окончания приема заявок первого этапа кастинга осталось</div>
       <div id="timer" class="timer" data-time="2018/12/07 11:00:00"></div>
       <div class="feedback-casting" id="feedback-casting">
         <div class="feedback-casting__title">
@@ -365,7 +382,6 @@
                 <label class="feedback-casting-form-wrap" for="req4">
                   <span class="feedback-casting-form__name">Ресторан</span>
                   <input type="text" id="req4" class="feedback-casting-form__input validation-input" name="restoran" placeholder="Ресторан">
-
                   <!--<select id="req4" class="feedback-casting-form__select feedback-casting-form__select_restorants validation-input" name="restoran" style="opacity: 0;">-->
                     <!--&lt;!&ndash;<option selected value="Название ресторана">Название ресторана</option>&ndash;&gt;-->
                     <!--<option value="1">Южный</option>-->
@@ -432,21 +448,26 @@
                 </label>
                 <label class="feedback-casting-form-wrap" for="req7">
                   <span class="feedback-casting-form__name">E-mail</span>
-                  <input type="text" id="req7" class="feedback-casting-form__input validation-input" name="email" placeholder="Elena.Yakubova@yum.com">
+                  <input type="text" id="req7" class="feedback-casting-form__input validation-input" name="email" placeholder="E-Mail">
                 </label>
                 <div class="feedback-casting-form-wrap license">
                   <label class="feedback-casting-form__row" for="req8">
                     <input id="req8" type="checkbox" name="data">
                     <span class="checkmark"></span>
-                    <span class="feedback-casting-form__license">Я даю согласие на <a href="">обработку персональных данных</a></span>
+                    <span class="feedback-casting-form__license">Я даю согласие на <a class="modal-link" href="#" data-toggle="modal" data-input-id="req8" data-target="#license-personal">обработку персональных данных</a></span>
                   </label>
                   <label class="feedback-casting-form__row" for="req9">
                     <input id="req9" type="checkbox" name="konkurse">
                     <span class="checkmark"></span>
-                    <span class="feedback-casting-form__license">Я принимаю <a href="">условия конкурса</a></span>
+                    <span class="feedback-casting-form__license">Я принимаю <a class="modal-link" href="#" data-toggle="modal" data-input-id="req9" data-target="#license-condition">условия конкурса</a></span>
                   </label>
                 </div>
               </div>
+
+              <label class="feedback-casting-form-attention">
+                Внимание! Видео должно быть не длиннее 1 минуты. <br>
+                Формат файлов для загрузки видео: <br> .avi, .wmv, .mov, .flv, .mp4, vob, .3gp, .mpg
+              </label>
 
               <div class="feedback-casting-form__download">
                 <input type="file" id="req10" class="feedback-casting-form__download_input" accept="video/*" disabled>
@@ -454,7 +475,6 @@
                   <img src="img/download.png" alt=""><span>Загрузить видео</span>
                 </label>
               </div>
-
             </div>
             <div class="row justify-content-center feedback-casting-form-success-row">
               <div class="feedback-casting-form-progress">
@@ -468,7 +488,6 @@
                 </div>
               </div>
             </div>
-
 
           </div>
         </form>
@@ -551,10 +570,10 @@
         </li>
         <li class="footer-list__item">
           <span>Следи за обновлениями на сайте</span>
-          <a href="http://yum-fm.ru/" target="_blank">Слушай радиоэфиры YUM.FM</a>
+          <a href="http://yum-fm.ru/" target="_blank">Слушай радиоэфир YUM-FM.RU</a>
           <span>Дополнительные вопросы отправляй на почту Orgteam</span>
           <div><a href="mailto: Alyona.Klyuchareva@yum.com">Alyona.Klyuchareva@yum.com</a></div>
-          <div><a href="mailto: Elena.Yakubova@yum.com">Elena.Yakubova@yum.com</a></div>
+          <!--<div><a href="mailto: Elena.Yakubova@yum.com">Elena.Yakubova@yum.com</a></div>-->
         </li>
         <li class="footer-list__item">
           <div class="footer-social">
@@ -566,7 +585,60 @@
     </div>
   </footer>
 
+  <!--modals license-->
+  <div class="modal fade license-modal" id="license-personal" tabindex="-1" role="dialog" aria-labelledby="license-personal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title license-modal__title">Правила обработки персональных данных:</div>
+          <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+            <!--<span aria-hidden="true">&times;</span>-->
+          <!--</button>-->
+        </div>
+        <div class="modal-body license-modal-body">
+          <p>1. обработка персональных данных должна осуществляться на законной и справедливой основе;</p>
+          <p>2. обработка персональных данных должна ограничиваться достижением конкретных, определенных настоящими Правилами целей. Не допускается обработка персональных данных, несовместимая с целями сбора персональных данных;</p>
+          <p>3. не допускается объединение баз данных, содержащих персональные данные, обработка которых осуществляется в целях, несовместимых между собой;</p>
+          <p>4. обработке подлежат только персональные данные, которые отвечают целям их обработки;</p>
+          <p>5. содержание и объем обрабатываемых персональных данных должны соответствовать заявленным целям обработки. Обрабатываемые персональные данные не должны быть избыточными по отношению к заявленным целям их обработки;</p>
+          <p>6. при обработке персональных данных должны быть обеспечены их точность, достаточность, а в необходимых случаях и актуальность по отношению к целям их обработки.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Согласен</button>
+          <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade license-modal" id="license-condition" tabindex="-1" role="dialog" aria-labelledby="license-condition" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-title license-modal__title">Обязательные условия участия в кастинге:</div>
+          <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
+          <!--<span aria-hidden="true">&times;</span>-->
+          <!--</button>-->
+        </div>
+        <div class="modal-body license-modal-body">
+          <p>1. Длительность видеозаявки не должна превышать одну минуту</p>
 
+          <p>2. Участник кастинга должен не допускать ситуаций накрутки голосов во время общекорпоративного голосования, а тем более быть их инициатором (за нарушение – бан и дисквалификация)
+
+          <p>3. В случае победы в кастинге, участник должен прибыть в Москву не позднее
+          13 февраля и уехать из Москвы не ранее 22 февраля 2018 года.
+          Оценить свои возможности и согласовать рабочий график участник должен до того, как примет решение участвовать в кастинге (приезд в Москву участнику компенсируется)</p>
+
+          <p>4. По приезду в Москву, участник шоу обязуется посещать все репетиции без единого пропуска</p>
+
+          <p class="attention">! Нарушение любого из пунктов влечет за собой дисквалификацию участника на любом этапе кастинга / подготовки шоу</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Согласен</button>
+          <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/libs.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.2/dist/jquery.fancybox.min.js"></script>
