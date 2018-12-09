@@ -536,6 +536,9 @@
           width: 25px;
           -webkit-animation: pulsate-arrow 1s linear infinite;
           animation: pulsate-arrow 1s linear infinite; }
+          @media screen and (max-width: 767px) {
+            .video__title_normal_red svg {
+              width: 15px; } }
 
 @-webkit-keyframes pulsate-video-text {
   50% {
@@ -717,50 +720,99 @@
     color: #000;
     text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #000, 0 0 8px #000;
     opacity: 1; } }
-    .mentors .mentors-list .mentors-list-inside {
-      margin-top: 1rem; }
 
-.mentors-data-wrapper {
-  width: 1015px !important;
-  padding: 100px !important;
-  margin: auto !important;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-  -webkit-transition: all 1s linear;
-  -o-transition: all 1s linear;
-  transition: all 1s linear;
-  opacity: 0; }
+.mentors-list-inside {
+  margin-top: 1rem; }
+  .mentors-list-inside li {
+    margin-bottom: 0.5rem; }
+    @media screen and (max-width: 550px) {
+      .mentors-list-inside li {
+        text-align: left; } }
+    .mentors-list-inside li span {
+      background: url("../img/ellipse-mini.png") no-repeat 0 50%;
+      display: inline-block;
+      font-family: "Oswald-Light", sans-serif;
+      font-size: 16px;
+      padding-left: 25px;
+      text-align: left; }
+      @media screen and (max-width: 767px) {
+        .mentors-list-inside li span {
+          font-size: 14px;
+          padding-left: 1rem; } }
+
+.mentors-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .mentors-data__left img {
+    max-width: 125px; }
   @media screen and (max-width: 767px) {
-    .mentors-data-wrapper {
-      padding: 1rem !important; } }
-  .mentors-data-wrapper .fancybox-close-small {
-    color: #000 !important;
-    opacity: 1 !important; }
-
-.mentors-data__name {
-  color: #000;
-  font-size: 50px;
-  font-family: "Oswald-Medium", sans-serif;
-  text-transform: uppercase; }
-  @media screen and (max-width: 767px) {
-    .mentors-data__name {
-      font-size: 18px; } }
-
-.mentors-data__description {
-  margin-top: 30px; }
-  .mentors-data__description li {
-    background: url("../img/ellipse-mini.png") no-repeat 0 center;
-    color: #000;
-    font-size: 20px;
-    font-family: "Oswald-Light", sans-serif;
-    padding-left: 25px; }
+    .mentors-data__left {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 100%;
+              flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center; } }
+  .mentors-data__right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 calc(100% - 125px);
+            flex: 0 0 calc(100% - 125px);
+    max-width: calc(100% - 125px);
+    padding-left: 50px; }
     @media screen and (max-width: 767px) {
-      .mentors-data__description li {
-        font-size: 14px; } }
-  .mentors-data__description img {
-    margin-right: 1rem; }
+      .mentors-data__right {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 1rem;
+        padding-left: 0;
+        text-align: center; } }
+  .mentors-data-wrapper {
+    width: 1015px !important;
+    padding: 100px 50px !important;
+    margin: auto !important;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    -webkit-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    opacity: 0; }
+    @media screen and (max-width: 767px) {
+      .mentors-data-wrapper {
+        padding: 1rem !important; } }
+    .mentors-data-wrapper .fancybox-close-small {
+      color: #000 !important;
+      opacity: 1 !important; }
+  .mentors-data__name {
+    color: #000;
+    font-size: 50px;
+    font-family: "Oswald-Medium", sans-serif;
+    line-height: 1;
+    text-transform: uppercase; }
+    @media screen and (max-width: 767px) {
+      .mentors-data__name {
+        font-size: 18px; } }
+  .mentors-data__description {
+    margin-top: 30px; }
+    .mentors-data__description li {
+      background: url("../img/ellipse-mini.png") no-repeat 0 center;
+      color: #000;
+      font-size: 20px;
+      font-family: "Oswald-Light", sans-serif;
+      padding-left: 25px; }
+      @media screen and (max-width: 767px) {
+        .mentors-data__description li {
+          font-size: 14px; } }
+    .mentors-data__description img {
+      margin-right: 1rem; }
 
 .talent .talent-lines-mob {
   margin-top: 50px; }

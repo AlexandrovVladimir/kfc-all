@@ -435,6 +435,8 @@
 					width: 25px
 					-webkit-animation: pulsate-arrow 1s linear infinite
 					animation: pulsate-arrow 1s linear infinite
+					@media screen and (max-width: 767px)
+						width: 15px
 				@keyframes pulsate-video-text
 					50%
 						color: #333
@@ -572,13 +574,54 @@
 				color: #000
 				text-shadow: 0 -1px rgba(0, 0, 0, 0.3), 0 0 5px #000, 0 0 8px #000
 				opacity: 1
-		.mentors-list-inside
-			margin-top: 1rem
-			
+
+.mentors-list-inside
+	margin-top: 1rem
+	@media screen and (max-width: 767px)
+		max-width: 375px
+		margin-left: auto
+		margin-right: auto
+		margin-top: 0.75rem !important
+	li
+		margin-bottom: 0.5rem
+		@media screen and (max-width: 767px)
+			text-align: left
+		span
+			background: url('../img/ellipse-mini.png') no-repeat 0 50%
+			display: inline-block
+			font-family: $font-light
+			font-size: 16px
+			padding-left: 25px
+			text-align: left
+			@media screen and (max-width: 767px)
+				font-size: 14px
+				padding-left: 1rem	
 .mentors-data
+	display: flex
+	flex-wrap: wrap
+	align-items: flex-start
+	&__left
+		img
+			max-width: 125px
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+			text-align: center
+			
+	&__right
+		// flex-grow: 1
+		flex: 0 0 calc(100% - 125px)
+		max-width: calc(100% - 125px)
+		padding-left: 50px
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+			margin-top: 1rem
+			padding-left: 0
+			text-align: center
 	&-wrapper
 		width: 1015px !important
-		padding: 100px !important
+		padding: 100px 50px !important
 		margin: auto !important
 		top: 50%
 		transform: translateY(-50%)
@@ -593,6 +636,7 @@
 		color: #000
 		font-size: 50px
 		font-family: $font-medium
+		line-height: 1
 		text-transform: uppercase
 		@media screen and (max-width: 767px)
 			font-size: 18px
