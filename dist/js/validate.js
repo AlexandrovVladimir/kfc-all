@@ -1,9 +1,10 @@
-let $ = jQuery.noConflict();
+let $ = jQuery.noConflict(),
+    count_field_req = $('#count_field').data('count');
 
 /*change form*/
 function changeForm(form, button){
   $(form).find('input').on('change', function(e){
-    if (checkedForm(form) === 10){
+    if (checkedForm(form) === count_field_req){
       jQuery(button).removeClass('feedback-casting-form__button_disable');
       $('.feedback-casting-form__download_input').attr('disabled', false);
     } else {
@@ -79,7 +80,7 @@ $('#req10').on('change', function(e){
 $('#personal_rules').click(function(e){
   e.preventDefault();
   $('#req8').prop('checked', true);
-  if (checkedForm('.feedback-casting-form') === 10){
+  if (checkedForm('.feedback-casting-form') === count_field_req){
     jQuery('.feedback-casting-form__button').removeClass('feedback-casting-form__button_disable');
     $('.feedback-casting-form__download_input').attr('disabled', false);
   } else {
@@ -92,7 +93,7 @@ $('#personal_rules').click(function(e){
 $('#casting_conditions').click(function(e){
   e.preventDefault();
   $('#req9').prop('checked', true);
-  if (checkedForm('.feedback-casting-form') === 10){
+  if (checkedForm('.feedback-casting-form') === count_field_req){
     jQuery('.feedback-casting-form__button').removeClass('feedback-casting-form__button_disable');
     $('.feedback-casting-form__download_input').attr('disabled', false);
   } else {

@@ -433,6 +433,7 @@
 				animation: pulsate-video-text 2s linear infinite
 				svg
 					width: 25px
+					height: 25px
 					-webkit-animation: pulsate-arrow 1s linear infinite
 					animation: pulsate-arrow 1s linear infinite
 					@media screen and (max-width: 767px)
@@ -1037,7 +1038,168 @@
 		height: 6px
 		max-width: 550px
 		margin: 25px auto
-		
+
+.feedback-casting-form
+	margin-top: 45px
+	@media screen and (max-width: 767px)
+		margin-top: 20px
+	&-attention
+		color: $default-red
+		font-size: 14px
+		font-family: $font-regular
+		margin-top: 50px
+		flex: 0 0 100%
+		max-width: 100%
+		text-align: center
+		@media screen and (max-width: 767px)
+			font-size: 12px
+			margin-top: 35px
+			text-align: center
+	.col-12
+		position: relative
+		//z-index: 2
+		@media screen and (max-width: 991px)
+			flex: 0 0 50%
+			max-width: 50%
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+	&-wrap
+		width: 100%
+		margin-bottom: 1rem
+		&.license
+			margin-bottom: 0
+			padding-top: 36px
+			padding-left: 1rem
+			//@media screen and (max-width: 991px) and (min-width: 768px)
+			//	padding-left: 0
+			//	padding-top: 26px
+			@media screen and (max-width: 767px)
+				padding-left: 100px
+			@media screen and (max-width: 580px)
+				padding-left: 0
+		span
+			display: block
+	&__name
+		color: $color-black
+		font-family: $font-regular
+		font-size: 14px
+		margin-bottom: 0.5rem
+		text-transform: uppercase
+	&__input
+		border: 1px solid #c3c3c3
+		-webkit-border-radius: 10px
+		-moz-border-radius: 10px
+		border-radius: 10px
+		color: $color-black
+		font-family: $font-regular
+		font-size: 14px
+		padding: 0 1rem
+		height: 60px
+		width: 100%
+		text-align: center
+	&__row
+		display: flex
+		align-items: center
+		justify-content: flex-start
+		flex-wrap: wrap
+		text-align: left
+		@media screen and (max-width: 991px) and (min-width: 768px)
+			display: flex
+			flex-wrap: nowrap
+		input
+			display: none
+			margin-right: 1rem
+		.checkmark
+			border: 1px solid #000
+			-webkit-border-radius: 50%
+			-moz-border-radius: 50%
+			border-radius: 50%
+			display: inline-block
+			margin-right: 0.5rem
+			width: 10px
+			height: 10px
+			position: relative
+			&:after
+				content: ''
+				background: none
+				width: 15px
+				height: 15px
+				position: absolute
+				left: 0
+				top: 0
+		input:checked ~ .checkmark:after
+			content: ''
+			background: url('../img/tick.png') no-repeat 1px -1.5px
+	&__license
+		color: $color-black
+		font-family: $font-regular
+		font-size: 14px
+		@media screen and (max-width: 1199px)
+			font-size: 12px
+		a
+			color: $color-black
+			text-decoration: underline
+			@media screen and (max-width: 991px) and (min-width: 768px)
+				width: 100%
+	&__download
+		flex: 0 0 100%
+		max-width: 100%
+		position: relative
+		z-index: 1
+		&_input
+			position: absolute
+			display: none
+	&__button
+		background-color: $default-red
+		-webkit-border-radius: 50px
+		-moz-border-radius: 50px
+		border: 1px solid $default-red
+		border-radius: 50px
+		cursor: pointer
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-wrap: wrap
+		max-width: 350px
+		margin: 0 auto
+		padding: 1.5rem 60px
+		transition: all 0.3s ease-in-out
+		@media screen and (max-width: 767px)
+			padding: 0.5rem 1rem
+			max-width: 225px
+		&_disable
+			background-color: darken(#ededed, 10%)
+			cursor: unset
+			&:hover, &:focus
+				outline: none
+				box-shadow: none !important
+		&:hover, &:focus
+			outline: none
+			box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.3)
+		img
+			margin-right: 1rem
+		span
+			color: #fff
+			display: block
+			font-family: $font-regular
+			font-size: 20px
+			pointer-events: none
+			text-align: center
+			text-transform: uppercase
+			@media screen and (max-width: 767px)
+				font-size: 14px
+	&__message
+		color: red
+	&-success
+		height: 550px
+		display: flex
+		align-items: center
+		justify-content: center
+		flex-wrap: wrap
+		&-row
+			height: 550px
+			display: none
 		
 .faq
 	padding-bottom: 70px
@@ -1179,7 +1341,9 @@
 					text-decoration: none
 			span
 				display: block
-				
+		.footer-logo
+			img
+				width: 198px
 .girl-mobile
 	display: none
 	overflow: hidden

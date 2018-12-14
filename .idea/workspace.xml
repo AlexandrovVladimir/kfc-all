@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d8cdc9e-6c06-4920-943b-28a19fa78218" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/css/sections.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/sections.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sass/sections.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/sections.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/libs.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/libs.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/arrow-point-to-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/arrow-point-to-right.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/arrowBottomVideo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/arrowBottomVideo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/face.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/face.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/icon-star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/icon-star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/lines.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/img/lines.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/CONTRIBUTORS.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/CONTRIBUTORS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/Gruntfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/Gruntfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/LICENSE-MIT" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/LICENSE-MIT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/dist/jquery.form.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/dist/jquery.form.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/_sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/_sass/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/api.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/assets/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/faq.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/docs/options.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/docs/options.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/form.jquery.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/form.jquery.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/install/pre-commit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/install/pre-commit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/install/template/shell.hb" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/install/template/shell.hb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/src/jquery.form.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/src/jquery.form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/test/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/form/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/form/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/jquery.custom-select.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/jquery.custom-select.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/sass/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/sass/_base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/sass/jquery.custom-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-custom-select-master/sass/jquery.custom-select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/ISSUE_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/component.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/component.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/src/jquery.mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/jquery-mask-plugin/src/jquery.mask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/bower.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/ajax.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/ajax_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/ajax_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/auto_hide_scrollbar_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/auto_hide_scrollbar_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/auto_scrolling_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/auto_scrolling_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/bootstrap_examples-extended.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/bootstrap_examples-extended.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/bootstrap_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/bootstrap_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/callbacks_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/callbacks_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/colorbox/colorbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/colorbox/colorbox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/colorbox/jquery.colorbox-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/colorbox/jquery.colorbox-min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/colorbox_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/colorbox_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/complete_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/complete_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/disable_destroy_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/disable_destroy_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/fluid_scrollbar_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/fluid_scrollbar_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/full_page_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/full_page_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/grid_and_snap_while_scrolling_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/grid_and_snap_while_scrolling_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/iframe_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/iframe_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/infinite_scroll_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/infinite_scroll_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/init_hidden_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/init_hidden_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/init_position_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/init_position_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_accordion_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_accordion_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_autocomplete_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_autocomplete_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_dialog_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_dialog_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_resizable_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_resizable_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_sortable_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_sortable_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_tabs_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/jquery_ui_tabs_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/keyboard_nav_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/keyboard_nav_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/loading_each_script_separately.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/loading_each_script_separately.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/loading_each_script_separately_via_cdn.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/loading_each_script_separately_via_cdn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/loading_scripts_via_cdn.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/loading_scripts_via_cdn.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/max-height_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/max-height_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/max-width_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/max-width_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/multiple_scrollbars_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/multiple_scrollbars_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/nested_scrollbars_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/nested_scrollbars_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/nested_scrollbars_demo_alt.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/nested_scrollbars_demo_alt.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/nested_scrollbars_demo_alt_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/nested_scrollbars_demo_alt_2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/rtl_direction_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/rtl_direction_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/scrollTo_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/scrollTo_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/scroll_buttons_and_snap_scrolling_examples.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/scroll_buttons_and_snap_scrolling_examples.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/scrollbar_themes_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/scrollbar_themes_demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/simple_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/simple_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/simple_example_all_params.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/simple_example_all_params.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/textarea_example.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/examples/textarea_example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-1.11.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-1.11.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-1.9.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-1.9.1.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-2.1.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-2.1.0.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-ui-1.10.4.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery-ui-1.10.4.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mCustomScrollbar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mCustomScrollbar.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mousewheel-3.0.6.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mousewheel-3.0.6.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mousewheel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/minified/jquery.mousewheel.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/uncompressed/jquery.mCustomScrollbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/uncompressed/jquery.mCustomScrollbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/uncompressed/jquery.mousewheel-3.0.6.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/uncompressed/jquery.mousewheel-3.0.6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/uncompressed/jquery.mousewheel.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/js/uncompressed/jquery.mousewheel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/validate.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1234872629">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="8" />
+          <entry key="js" value="13" />
+          <entry key="sass" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="8" />
+          <entry key="JavaScript" value="13" />
+          <entry key="Sass" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="3559" />
+          <entry key="js" value="1942" />
+          <entry key="sass" value="8812" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="3562" />
+          <entry key="JavaScript" value="1939" />
+          <entry key="Sass" value="8812" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1500980953">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.opened" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="1510" />
+          <entry key="js" value="1744" />
+          <entry key="sass" value="2778" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1510" />
+          <entry key="JavaScript" value="1744" />
+          <entry key="Sass" value="2778" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="3" />
+          <entry key="html" value="17" />
+          <entry key="js" value="22" />
+          <entry key="sass" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="3" />
+          <entry key="HTML" value="17" />
+          <entry key="JavaScript" value="22" />
+          <entry key="Sass" value="15" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.67477745">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="505">
+                  <caret line="365" column="12" selection-start-line="365" selection-start-column="12" selection-end-line="365" selection-end-column="12" />
+                  <folding>
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#select#0;n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#1;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/index3.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="298">
+                  <caret line="382" column="68" lean-forward="true" selection-start-line="382" selection-start-column="68" selection-end-line="382" selection-end-column="68" />
+                  <folding>
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/index2.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="161">
+                  <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/sass/index3.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="229">
+                  <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/sass/sections.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="46">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                  <folding>
+                    <marker date="1544779929752" expanded="true" signature="6567:6623" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>checkmark</find>
+      <find>Кликни на фото и ознакомься с наставником</find>
+      <find>мотри</find>
+      <find>video</find>
+      <find>video-button</find>
+      <find>0.5</find>
+      <find>chec</find>
+      <find>отбор фин</find>
+      <find>.talent</find>
+      <find>mentors-video</find>
+      <find>feedback-casting-form-wrap</find>
+      <find>down</find>
+      <find>wrapper</find>
+      <find>license</find>
+      <find>.talent.index3</find>
+      <find>mentors-vi</find>
+      <find>newsSection__wrap</find>
+      <find>iframe</find>
+      <find>внимание</find>
+      <find>Внимание</find>
+      <find>count</find>
+      <find>feedback__title</find>
+      <find>до ок</find>
+      <find>заявка</find>
+      <find>.feedback-casting-form-success</find>
+      <find>.feedback-casting-form-success-row</find>
+      <find>feedback-casting-form-success</find>
+      <find>feedback-casting-form</find>
+      <find>длина</find>
+      <find>accept</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\WORK\KFC\app\js</dir>
+      <dir>C:\WORK\KFC\app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/sass/_fonts.sass" />
+        <option value="$PROJECT_DIR$/../kfcEMGRTE/css/style.css" />
+        <option value="$PROJECT_DIR$/app/sass/helper-validate.sass" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/app/sass/_vars.sass" />
+        <option value="$PROJECT_DIR$/app/js/custom-select.js" />
+        <option value="$PROJECT_DIR$/app/js/videoRefactor.js" />
+        <option value="$PROJECT_DIR$/app/mentors3.html" />
+        <option value="$PROJECT_DIR$/app/mentors4.html" />
+        <option value="$PROJECT_DIR$/app/mentors5.html" />
+        <option value="$PROJECT_DIR$/app/mentors2.html" />
+        <option value="$PROJECT_DIR$/app/mentors1.html" />
+        <option value="$PROJECT_DIR$/app/js/timer.js" />
+        <option value="$PROJECT_DIR$/app/sass/timer.sass" />
+        <option value="$PROJECT_DIR$/app/index2.html" />
+        <option value="$PROJECT_DIR$/app/sass/main.sass" />
+        <option value="$PROJECT_DIR$/app/sass/sections.sass" />
+        <option value="$PROJECT_DIR$/app/js/validate3.js" />
+        <option value="$PROJECT_DIR$/app/js/common.js" />
+        <option value="$PROJECT_DIR$/app/js/videoPause.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/js/validate.js" />
+        <option value="$PROJECT_DIR$/app/sass/index2.sass" />
+        <option value="$PROJECT_DIR$/app/index3.html" />
+        <option value="$PROJECT_DIR$/app/sass/index3.sass" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/app/js/form/package.json" />
+      <path value="$PROJECT_DIR$/app/js/jquery-custom-select-master/package.json" />
+      <path value="$PROJECT_DIR$/app/js/jquery-mask-plugin/package.json" />
+      <path value="$PROJECT_DIR$/app/js/malihu-custom-scrollbar-plugin-master/package.json" />
+      <path value="$PROJECT_DIR$/dist/js/form/package.json" />
+      <path value="$PROJECT_DIR$/dist/js/jquery-custom-select-master/package.json" />
+      <path value="$PROJECT_DIR$/dist/js/jquery-mask-plugin/package.json" />
+      <path value="$PROJECT_DIR$/dist/js/malihu-custom-scrollbar-plugin-master/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="KFC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KFC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KFC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KFC" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d8cdc9e-6c06-4920-943b-28a19fa78218" name="Default Changelist" comment="" />
+      <created>1543680201487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543680201487</updated>
+      <workItem from="1543680207761" duration="20474000" />
+      <workItem from="1543747216104" duration="28722000" />
+      <workItem from="1543830676739" duration="4297000" />
+      <workItem from="1543837263950" duration="25110000" />
+      <workItem from="1543911864030" duration="336000" />
+      <workItem from="1543921034825" duration="2259000" />
+      <workItem from="1543925632806" duration="1328000" />
+      <workItem from="1543927520951" duration="7977000" />
+      <workItem from="1543939047805" duration="680000" />
+      <workItem from="1543999062637" duration="6365000" />
+      <workItem from="1544088527865" duration="4314000" />
+      <workItem from="1544104046140" duration="7526000" />
+      <workItem from="1544114120897" duration="1184000" />
+      <workItem from="1544170401933" duration="687000" />
+      <workItem from="1544173385175" duration="20871000" />
+      <workItem from="1544430305170" duration="233000" />
+      <workItem from="1544707177975" duration="2527000" />
+      <workItem from="1544775379660" duration="11718000" />
+      <workItem from="1544793011720" duration="372000" />
+      <workItem from="1544795134917" duration="759000" />
+      <workItem from="1544796682374" duration="112000" />
+      <workItem from="1544797075989" duration="264000" />
+      <workItem from="1544800133028" duration="38000" />
+      <workItem from="1544805328915" duration="1732000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="149885000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.112223394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.32897604" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50263435" side_tool="true" weight="0.251634" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49736565" visible="true" weight="0.1611479" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.112223394" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Gulp" order="2" side_tool="true" />
+      <window_info id="npm" order="3" side_tool="true" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49894625" weight="0.32897604" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50263435" side_tool="true" weight="0.251634" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49736565" visible="true" weight="0.1611479" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa15116.6965/jquery.countdown.min.js" />
+    <entry file="file://$PROJECT_DIR$/app/sass/_fonts.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/jquery-custom-select-master/dist/js/jquery.custom-select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="293" column="15" lean-forward="true" selection-start-line="293" selection-start-column="15" selection-end-line="293" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28" column="43" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/custom-select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/helper-validate.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mentors2.html" />
+    <entry file="file://$PROJECT_DIR$/app/mentors1.html" />
+    <entry file="file://$PROJECT_DIR$/app/mentors3.html" />
+    <entry file="file://$PROJECT_DIR$/app/mentors4.html" />
+    <entry file="file://$PROJECT_DIR$/app/mentors5.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa7876.16165/app/sass/sections.sass" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa7876.35626/app/sass/main.sass" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa7876.34327/app/sass/sections.sass" />
+    <entry file="file://$PROJECT_DIR$/app/sass/timer.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/timer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="27" column="44" lean-forward="true" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/validate-old.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2112">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/sections.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="678" column="11" selection-start-line="678" selection-start-column="11" selection-end-line="678" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kfcEMGRTE/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="4217" column="3" lean-forward="true" selection-end-line="4227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/videoRefactor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="45" lean-forward="true" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/_vars.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/main.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/validate3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="116" column="4" lean-forward="true" selection-end-line="192" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/videoPause.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="113" column="20" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7682">
+          <caret line="334" column="34" selection-start-line="334" selection-start-column="34" selection-end-line="334" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/accaunt.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/index2.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/sections.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1544779929752" expanded="true" signature="6567:6623" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="365" column="12" selection-start-line="365" selection-start-column="12" selection-end-line="365" selection-end-column="12" />
+          <folding>
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#select#0;n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/sass/index3.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="382" column="68" lean-forward="true" selection-start-line="382" selection-start-column="68" selection-end-line="382" selection-end-column="68" />
+          <folding>
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,126 @@
+@import vars
+
+.mentors.index3
+	.mentors-list
+		&__label
+			line-height: 1.2
+			text-transform: uppercase
+		
+.mentors-video
+	padding: 115px 1rem 0
+	@media screen and (max-width: 767px)
+		padding-top: 25px
+	&__title
+		font-size: 50px
+		font-family: $font-regular
+		color: rgb(41, 41, 41)
+		text-align: center
+		text-transform: uppercase
+		@media screen and (max-width: 767px)
+			font-size: 30px
+
+.video-item
+		margin-top: 50px
+		position: relative
+		@media screen and (max-width: 767px)
+			margin-top: 20px
+		.embed-responsive
+			max-width: 992px
+			//height: 665px
+			margin: auto
+		.js-videoIframe
+			border: 1px solid #ccc
+			position: absolute
+			left: 0
+			right: 0
+			bottom: 0
+			top: 0
+			.video-button
+				background-color: transparent
+				cursor: pointer
+				max-width: 100px
+				position: absolute
+				left: 50%
+				top: 50%
+				transform: translate(-50%, -50%)
+				svg
+					width: 100%
+					opacity: 0.6
+			
+.talent.index3
+	padding-bottom: 70px
+	@media screen and (max-width: 767px)
+		padding-bottom: 25px
+	.talent__date
+		text-transform: uppercase
+	.talent__text
+		max-width: 85%
+	.feedback-casting-form
+		width: 100%
+		&__text
+			text-align: center
+			p
+				color: $color-black
+				font-family: $font-regular
+				font-size: 14px
+				margin-bottom: 0
+				@media screen and (max-width: 767px)
+					font-size: 12px
+	.feedback-casting-form-success
+		height: auto
+	.feedback-casting-form-success-row
+		height: auto
+	.feedback-casting-form-success-form
+		display: flex
+		align-items: center
+		justify-content: flex-start
+	.feedback-casting-form
+		&-attention-wrapper
+			max-width: 100%
+			flex: 0 0 100%
+			@media screen and (max-width: 767px)
+				text-align: center
+		&-attention
+			max-width: 225px
+			margin-top: 1rem
+			font-size: 14px
+		&__button
+			padding: 1rem
+			max-width: 225px
+			span
+				font-size: 18px
+		&__download
+			max-width: 225px
+			@media screen and (max-width: 767px)
+				margin: auto
+		&__license
+			@media screen and (max-width: 375px)
+				padding-left: 0
+				font-size: 11px
+		.container
+			@media screen and (max-width: 767px)
+				width: 100%
+		//&__row
+		//	display: inline-block
+	.feedback-casting-form-wrap
+		flex: 0 0 33.3333%
+		max-width: 33.3333%
+		@media screen and (max-width: 767px)
+			flex: 0 0 100%
+			max-width: 100%
+		&:first-child
+			margin-right: 1rem
+		&.license
+			flex: 0 0 100%
+			max-width: 320px
+			display: inline-block
+			padding-top: 1rem
+			@media screen and (max-width: 767px)
+				padding: 0 1rem
+				margin: 1rem auto 0
+			.checkmark
+				cursor: pointer
+				padding-left: 0
+				margin-right: 0
+		span
+			padding-left: 1rem

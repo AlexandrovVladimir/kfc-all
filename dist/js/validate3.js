@@ -1,10 +1,9 @@
-let $ = jQuery.noConflict(),
-    count_field_req = $('#count_field').data('count');
+let $ = jQuery.noConflict();
 
 /*change form*/
 function changeForm(form, button){
   $(form).find('input').on('change', function(e){
-    if (checkedForm(form) === count_field_req){
+    if (checkedForm(form) === 4){
       jQuery(button).removeClass('feedback-casting-form__button_disable');
       $('.feedback-casting-form__download_input').attr('disabled', false);
     } else {
@@ -51,22 +50,6 @@ function checkedForm(form) {
 }
 changeForm('.feedback-casting-form', '.feedback-casting-form__button');
 
-/*check phone mask*/
-function checkPhoneMask(input){
-  let inputCountry = jQuery('.feedback-casting-form__input_telephone').attr('data-country');
-
-  if (inputCountry === 'Россия' || inputCountry === 'Казахстан'){
-    jQuery(input).mask('+0 000 000-00-00');
-  } else if (inputCountry === 'Киргизия'){
-    jQuery(input).mask('+000 000 00-00-00');
-  } else if (inputCountry === 'Белоруссия'){
-    jQuery(input).mask('+000 (00) 000-00-00');
-  }else {
-    jQuery(input).mask('+0 000 000-00-00');
-  }
-}
-checkPhoneMask('.feedback-casting-form__input_telephone');
-
 
 $('#req10').on('change', function(e){
   e.preventDefault();
@@ -75,12 +58,10 @@ $('#req10').on('change', function(e){
   }
 });
 
-
-
 $('#personal_rules').click(function(e){
   e.preventDefault();
   $('#req8').prop('checked', true);
-  if (checkedForm('.feedback-casting-form') === count_field_req){
+  if (checkedForm('.feedback-casting-form') === 10){
     jQuery('.feedback-casting-form__button').removeClass('feedback-casting-form__button_disable');
     $('.feedback-casting-form__download_input').attr('disabled', false);
   } else {
@@ -93,7 +74,7 @@ $('#personal_rules').click(function(e){
 $('#casting_conditions').click(function(e){
   e.preventDefault();
   $('#req9').prop('checked', true);
-  if (checkedForm('.feedback-casting-form') === count_field_req){
+  if (checkedForm('.feedback-casting-form') === 4){
     jQuery('.feedback-casting-form__button').removeClass('feedback-casting-form__button_disable');
     $('.feedback-casting-form__download_input').attr('disabled', false);
   } else {
