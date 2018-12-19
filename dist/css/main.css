@@ -1955,6 +1955,9 @@
     text-transform: uppercase; }
   .talent.index3 .talent__text {
     max-width: 85%; }
+    @media screen and (max-width: 767px) {
+      .talent.index3 .talent__text {
+        max-width: 100%; } }
   .talent.index3 .feedback-casting-form {
     width: 100%; }
     .talent.index3 .feedback-casting-form__text {
@@ -1962,11 +1965,11 @@
       .talent.index3 .feedback-casting-form__text p {
         color: #292929;
         font-family: "Oswald-Regular", sans-serif;
-        font-size: 14px;
+        font-size: 24px;
         margin-bottom: 0; }
         @media screen and (max-width: 767px) {
           .talent.index3 .feedback-casting-form__text p {
-            font-size: 12px; } }
+            font-size: 16px; } }
   .talent.index3 .feedback-casting-form-success {
     height: auto; }
   .talent.index3 .feedback-casting-form-success-row {
@@ -1989,6 +1992,8 @@
     @media screen and (max-width: 767px) {
       .talent.index3 .feedback-casting-form-attention-wrapper {
         text-align: center; } }
+  .talent.index3 .feedback-casting-form-progress__digit {
+    text-align: center; }
   .talent.index3 .feedback-casting-form-attention {
     max-width: 225px;
     margin-top: 1rem;

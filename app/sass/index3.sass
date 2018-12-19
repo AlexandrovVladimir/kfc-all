@@ -55,6 +55,8 @@
 		text-transform: uppercase
 	.talent__text
 		max-width: 85%
+		@media screen and (max-width: 767px)
+			max-width: 100%
 	.feedback-casting-form
 		width: 100%
 		&__text
@@ -62,10 +64,10 @@
 			p
 				color: $color-black
 				font-family: $font-regular
-				font-size: 14px
+				font-size: 24px
 				margin-bottom: 0
 				@media screen and (max-width: 767px)
-					font-size: 12px
+					font-size: 16px
 	.feedback-casting-form-success
 		height: auto
 	.feedback-casting-form-success-row
@@ -79,6 +81,9 @@
 			max-width: 100%
 			flex: 0 0 100%
 			@media screen and (max-width: 767px)
+				text-align: center
+		&-progress
+			&__digit
 				text-align: center
 		&-attention
 			max-width: 225px
