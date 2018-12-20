@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5d8cdc9e-6c06-4920-943b-28a19fa78218" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/index3.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/index3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/sass/index3.sass" beforeDir="false" afterPath="$PROJECT_DIR$/app/sass/index3.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/validate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,32 +61,32 @@
     <session id="1500980953">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="7" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.2" value="5" />
           <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.50" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="1510" />
-          <entry key="js" value="1744" />
+          <entry key="js" value="1770" />
           <entry key="sass" value="2848" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="1510" />
-          <entry key="JavaScript" value="1744" />
+          <entry key="JavaScript" value="1770" />
           <entry key="Sass" value="2848" />
         </counts>
       </usages-collector>
@@ -97,7 +94,7 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="17" />
-          <entry key="js" value="22" />
+          <entry key="js" value="26" />
           <entry key="sass" value="15" />
         </counts>
       </usages-collector>
@@ -105,21 +102,21 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="17" />
-          <entry key="JavaScript" value="22" />
+          <entry key="JavaScript" value="26" />
           <entry key="Sass" value="15" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5703264">
+    <splitter split-orientation="horizontal" split-proportion="0.70979226">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="7659">
-                  <caret line="365" column="12" selection-start-line="365" selection-start-column="12" selection-end-line="365" selection-end-column="12" />
+                <state relative-caret-position="252">
+                  <caret line="460" column="121" selection-start-line="460" selection-start-column="83" selection-end-line="460" selection-end-column="121" />
                   <folding>
                     <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
@@ -133,11 +130,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index3.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="382" column="68" selection-start-line="382" selection-start-column="68" selection-end-line="382" selection-end-column="68" />
+                <state relative-caret-position="427">
+                  <caret line="612" column="22" selection-start-line="612" selection-start-column="22" selection-end-line="612" selection-end-column="22" />
                   <folding>
                     <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
@@ -147,6 +144,24 @@
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/js/validate.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="579">
+                  <caret line="83" column="3" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="83" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/js/validate3.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="23">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
@@ -200,8 +215,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Кликни на фото и ознакомься с наставником</find>
-      <find>мотри</find>
       <find>video</find>
       <find>video-button</find>
       <find>0.5</find>
@@ -230,6 +243,8 @@
       <find>длина</find>
       <find>accept</find>
       <find>progres</find>
+      <find>telep</find>
+      <find>mask</find>
     </findStrings>
     <dirStrings>
       <dir>C:\WORK\KFC\app\js</dir>
@@ -263,10 +278,10 @@
         <option value="$PROJECT_DIR$/app/js/common.js" />
         <option value="$PROJECT_DIR$/app/js/videoPause.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/validate.js" />
         <option value="$PROJECT_DIR$/app/sass/index2.sass" />
         <option value="$PROJECT_DIR$/app/index3.html" />
         <option value="$PROJECT_DIR$/app/sass/index3.sass" />
+        <option value="$PROJECT_DIR$/app/js/validate.js" />
       </list>
     </option>
   </component>
@@ -322,6 +337,12 @@
               <item name="KFC" type="b2602c69:ProjectViewProjectNode" />
               <item name="KFC" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KFC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KFC" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -387,11 +408,12 @@
       <workItem from="1545039649863" duration="150000" />
       <workItem from="1545039835456" duration="286000" />
       <workItem from="1545226190856" duration="476000" />
+      <workItem from="1545306570215" duration="2154000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151723000" />
+    <option name="totallyTimeSpent" value="153877000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/validate3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="74" column="21" lean-forward="true" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
@@ -592,45 +607,6 @@
     <entry file="file://$PROJECT_DIR$/app/css/accaunt.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/validate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7659">
-          <caret line="365" column="12" selection-start-line="365" selection-start-column="12" selection-end-line="365" selection-end-column="12" />
-          <folding>
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#select#0;n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="382" column="68" selection-start-line="382" selection-start-column="68" selection-end-line="382" selection-end-column="68" />
-          <folding>
-            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/sass/index2.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -652,6 +628,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="460" column="121" selection-start-line="460" selection-start-column="83" selection-end-line="460" selection-end-column="121" />
+          <folding>
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#select#0;n#label#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#0;n#form#0;n#div#2;n#div#2;n#section#8;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="612" column="22" selection-start-line="612" selection-start-column="22" selection-end-line="612" selection-end-column="22" />
+          <folding>
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#svg#0;n#span#1;n#div#0;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/validate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="83" column="3" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="83" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/validate3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
