@@ -2046,67 +2046,8 @@
     .talent.index3 .feedback-casting-form-wrap span {
       padding-left: 1rem; }
 
-.video-current {
+.local-video {
   background: #fff; }
-
-.icon-default {
-  opacity: 0;
-  width: 25px;
-  height: 25px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 1; }
-
-.icon-play {
-  background-color: #ea5419;
-  border-radius: 50%;
-  cursor: pointer;
-  width: 39px;
-  height: 39px;
-  margin: auto;
-  z-index: 2; }
-  .icon-play:after {
-    content: '';
-    position: absolute;
-    border: 7px solid transparent;
-    border-left: 11px solid #fff;
-    left: 40%;
-    top: 32.5%; }
-
-.icon-pause {
-  background-color: #ea5419;
-  border-radius: 50%;
-  cursor: pointer;
-  width: 39px;
-  height: 39px;
-  margin: auto;
-  z-index: 2; }
-  .icon-pause:before {
-    background: #fff;
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 13px;
-    left: 40%;
-    top: 50%;
-    -webkit-transform: translate(-40%, -50%);
-        -ms-transform: translate(-40%, -50%);
-            transform: translate(-40%, -50%); }
-  .icon-pause:after {
-    background: #fff;
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 13px;
-    right: 30%;
-    top: 50%;
-    -webkit-transform: translate(-40%, -50%);
-        -ms-transform: translate(-40%, -50%);
-            transform: translate(-40%, -50%); }
 
 .page {
   overflow: hidden; }
@@ -2259,8 +2200,7 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    margin-top: 80px;
-    min-height: 525px; }
+    margin-top: 80px; }
     @media screen and (max-width: 900px) {
       .page-container .video-part .video-list {
         margin-top: 35px; } }
