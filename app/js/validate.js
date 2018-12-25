@@ -54,34 +54,18 @@ changeForm('.feedback-casting-form', '.feedback-casting-form__button');
 /*check phone mask*/
 function checkPhoneMask(input){
   let inputCountry = jQuery('.feedback-casting-form__input_telephone').attr('data-country');
-
-  if (inputCountry === 'Россия' || inputCountry === 'Казахстан'){
-    jQuery(input).mask('+0 000 000-00-00');
-  } else if (inputCountry === 'Киргизия'){
-    jQuery(input).mask('+000 000 00-00-00');
-  } else if (inputCountry === 'Белоруссия'){
-    jQuery(input).mask('+000 (00) 000-00-00');
-  }else {
-    jQuery(input).mask('+0 000 000-00-00');
-  }
+  jQuery(input).mask('+00000000000000');
+  // if (inputCountry === 'Россия' || inputCountry === 'Казахстан'){
+  //   jQuery(input).mask('+0 000 000-00-00');
+  // } else if (inputCountry === 'Киргизия'){
+  //   jQuery(input).mask('+000 000 00-00-00');
+  // } else if (inputCountry === 'Белоруссия'){
+  //   jQuery(input).mask('+000 (00) 000-00-00');
+  // }else {
+  //   jQuery(input).mask('+0 000 000-00-00');
+  // }
 }
-// checkPhoneMask('.feedback-casting-form__input_telephone');
-// Restricts input for each element in the set of matched elements to the given inputFilter.
-$.fn.inputFilter = function(inputFilter) {
-  return this.on("input keydown keyup mousedown mouseup select contextmenu drop", function() {
-    if (inputFilter(this.value)) {
-      this.oldValue = this.value;
-      this.oldSelectionStart = this.selectionStart;
-      this.oldSelectionEnd = this.selectionEnd;
-    } else if (this.hasOwnProperty("oldValue")) {
-      this.value = this.oldValue;
-      this.setSelectionRange(this.oldSelectionStart, this.oldSelectionEnd);
-    }
-  });
-};
-$(".feedback-casting-form__input_telephone").inputFilter(function(value) {
-  return /^-?\d*$/.test(value);
-});
+checkPhoneMask('.feedback-casting-form__input_telephone');
 
 $('#req10').on('change', function(e){
   e.preventDefault();
